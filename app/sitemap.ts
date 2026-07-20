@@ -1,13 +1,11 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
 import { blogPosts } from "@/lib/blog-posts";
-import { careerRoles } from "@/lib/careers";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     "",
     "/about-us",
-    "/careers",
     "/charity-initiatives",
     "/contact-us",
     "/discretionary-fund",
@@ -24,13 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1 : 0.8,
   }));
 
-  const careerRoutes = careerRoles.map((role) => ({
-    url: `${siteConfig.url}/careers/${role.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.5,
-  }));
-
   const blogRoutes = blogPosts.map((post) => ({
     url: `${siteConfig.url}/news-insights/${post.slug}`,
     lastModified: post.date ? new Date(post.date) : new Date(),
@@ -38,5 +29,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticRoutes, ...careerRoutes, ...blogRoutes];
+  return [...staticRoutes, ...blogRoutes];
 }

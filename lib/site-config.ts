@@ -66,7 +66,6 @@ export const navLinks: NavLink[] = [
     ],
   },
   { label: "About Us", href: "/about-us" },
-  { label: "Careers", href: "/careers" },
   { label: "Charity Initiatives", href: "/charity-initiatives" },
   { label: "News & Insights", href: "/news-insights" },
   { label: "Contact Us", href: "/contact-us" },
@@ -85,7 +84,6 @@ export const footerLinkGroups = [
     title: "Company",
     links: [
       { label: "About Us", href: "/about-us" },
-      { label: "Careers", href: "/careers" },
       { label: "Charity Initiatives", href: "/charity-initiatives" },
       { label: "News & Insights", href: "/news-insights" },
     ],

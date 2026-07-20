@@ -26,7 +26,7 @@ As a dynamic real estate investment and management company, Fairhaven Property G
 
 Conclusion: Dunedin's real estate market presents an array of opportunities for investors seeking growth and value. With a robust economy, growing demand for residential and rental properties, thriving commercial sectors, and ongoing development initiatives, the city provides a favorable environment for real estate investments. By staying informed about the latest market trends and insights, investors can capitalize on these opportunities and achieve their investment goals in Dunedin's dynamic real estate landscape.
 
-Please note that the information provided in this blog post is for informational purposes only and should not be considered as financial or investment advice. Always conduct thorough research and seek professional advice before making any investment decisions.
+*Please note that the information provided in this blog post is for informational purposes only and should not be considered as financial or investment advice. Always conduct thorough research and seek professional advice before making any investment decisions.*
 
 ## Images: (0 found)
 - (none found in article body)

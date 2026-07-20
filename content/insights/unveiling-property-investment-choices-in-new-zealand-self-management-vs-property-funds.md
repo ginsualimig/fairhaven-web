@@ -9,7 +9,7 @@ image: "https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1
 
 As the New Zealand property market continues to attract investors, making the right choice between self-managing a property portfolio and investing in property funds becomes increasingly critical. Each approach offers unique advantages and considerations, tailored to the preferences and objectives of individual investors. In this comprehensive analysis, we explore the pros and cons of these strategies, providing a comprehensive overview to aid investors in navigating the property investment landscape.
 
-Self-Managed Property Portfolios:
+**Self-Managed Property Portfolios:**
 
 Pros:
 
@@ -27,7 +27,7 @@ Cons:
 
 - Capital Intensity:Building and managing a property portfolio requires significant upfront capital and ongoing financial commitments. Mortgage payments, property taxes, maintenance costs, and insurance premiums necessitate prudent financial planning and stability.
 
-Property Funds:
+**Property Funds:**
 
 Pros:
 

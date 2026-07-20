@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json, re, os
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 
 RAW = "/Users/petrusyen/.openclaw/workspace/fairhaven-web/content-source/raw"
 OUT = "/Users/petrusyen/.openclaw/workspace/fairhaven-web/content-source/extracted"
@@ -56,6 +56,33 @@ def image_alt_fallback(src):
     name = name.replace("+", " ").replace("_", " ").strip()
     return name
 
+def inline_to_md(node):
+    """Recursively render inline content (bold/italic/links/line-breaks),
+    unwrapping presentational-only wrappers like Squarespace's color <span>s."""
+    if isinstance(node, NavigableString):
+        return str(node)
+
+    if node.name == "br":
+        return "<br />"
+
+    inner = "".join(inline_to_md(child) for child in node.children)
+
+    if node.name in ("strong", "b"):
+        stripped = inner.strip()
+        return f" **{stripped}** " if stripped else ""
+    if node.name in ("em", "i"):
+        stripped = inner.strip()
+        return f" *{stripped}* " if stripped else ""
+    if node.name == "a":
+        href = node.get("href") or ""
+        stripped = inner.strip()
+        if stripped and href:
+            return f"[{stripped}]({href})"
+        return stripped
+
+    # Unwrap everything else (span, font-weight wrappers, etc.) — keep the text.
+    return inner
+
 def html_block_to_md(el):
     """Convert a bs4 element (heading/paragraph/list/image/etc) to a markdown-ish line."""
     name = el.name
@@ -67,9 +94,11 @@ def html_block_to_md(el):
             return None
         alt = (el.get("alt") or "").strip() or image_alt_fallback(src)
         return f"![{alt}]({src})"
-    text = el.get_text(" ", strip=True)
-    text = re.sub(r"\s+", " ", text).strip()
-    if not text:
+    text = inline_to_md(el)
+    text = re.sub(r"\s+", " ", text)  # collapse whitespace runs (safe: <br /> has no double-spaces)
+    text = re.sub(r"\s*<br />\s*", "<br />", text)  # trim spaces hugging line breaks
+    text = text.strip()
+    if not text.replace("<br />", "").strip():
         return None
     if name in ("h1",):
         return f"# {text}"

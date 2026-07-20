@@ -21,7 +21,7 @@ In this environment, volatility in gold and Bitcoin is not noise, it is a signal
 
 The question for wholesale investors is no longer which asset will outperform in a single scenario. It is which combination of assets can perform across multiple outcomes.
 
-This month’s edition covers:
+**This month’s edition covers:**
 
 - The Debt-Based System and the Leverage Paradox in 2026
 
@@ -37,9 +37,9 @@ This month’s edition covers:
 
 - New Zealand and Malaysia in all of this
 
-### 1. The Paradox at the Core of the System
+### **1. The Paradox at the Core of the System**
 
-#### A Debt System That Assumes More Tomorrow
+#### **A Debt System That Assumes More Tomorrow**
 
 For most of the past eighty years, the global economy has operated on a relatively simple assumption. We borrow from the future in order to grow in the present. Governments issue debt. Corporations refinance and expand. Investors use leverage to enhance returns. Households borrow against rising incomes and appreciating assets.
 
@@ -49,7 +49,7 @@ In that world, leverage is not reckless. It is rational. If the cost of money is
 
 This is the architecture that underpins modern valuations.
 
-#### AI and the Growth Assumption
+#### **AI and the Growth Assumption**
 
 The tension emerges when that forward growth assumption becomes less certain.
 
@@ -61,7 +61,7 @@ If automation reduces labour participation faster than new industries can absorb
 
 Markets are forward looking. When uncertainty enters the future income equation, leverage feels less safe.
 
-#### Leverage and the Fragility of Confidence
+#### **Leverage and the Fragility of Confidence**
 
 Leverage magnifies returns when conditions are stable. It magnifies volatility when confidence weakens.
 
@@ -73,7 +73,7 @@ When those questions compound, markets react before data confirms anything. Vola
 
 These are not signs of immediate collapse. They are signals that capital is repricing uncertainty.
 
-#### The Monetary Backdrop Is No Longer Simple
+#### **The Monetary Backdrop Is No Longer Simple**
 
 Complicating the picture further is the shift in global funding conditions.
 
@@ -87,7 +87,7 @@ The paradox becomes clearer. Markets have priced the future on the expectation o
 
 Both narratives cannot be fully true at the same time.
 
-#### Stress Testing, Not Collapse
+#### **Stress Testing, Not Collapse**
 
 It is important to remain precise here. The global system is not breaking in an obvious or dramatic fashion. It is being stress tested.
 
@@ -97,9 +97,9 @@ In this environment, capital begins to behave differently. Investors seek visibi
 
 This behavioural shift is the early signal. The data often follows later.
 
-### 2. Gold at Highs and What the Market Is Really Signalling
+### **2. Gold at Highs and What the Market Is Really Signalling**
 
-#### A Break to New Highs in a Non Crisis Environment
+#### **A Break to New Highs in a Non Crisis Environment**
 
 Gold has moved to fresh highs in early 2026. That fact alone is not unusual in a world accustomed to monetary expansion. What is notable is the context.
 
@@ -111,7 +111,7 @@ Historically, gold surges during two broad regimes. The first is overt crisis, w
 
 The current rally fits the second category more closely.
 
-#### Rates, Real Yields, and the Repricing of Insurance
+#### **Rates, Real Yields, and the Repricing of Insurance**
 
 Gold does not produce income. Its appeal strengthens when the opportunity cost of holding it declines.
 
@@ -123,7 +123,7 @@ When the asset traditionally viewed as the safest store of value becomes price s
 
 Gold benefits from that shift.
 
-#### Central Bank Demand and Reserve Diversification
+#### **Central Bank Demand and Reserve Diversification**
 
 Another structural force underpinning the move is central bank behaviour.
 
@@ -137,7 +137,7 @@ This does not mean the dollar is being replaced tomorrow. It does mean reserve m
 
 That steady, structural demand is different from panic buying. It is portfolio rebalancing at the sovereign level.
 
-#### Volatility Beneath the Surface
+#### **Volatility Beneath the Surface**
 
 While gold has trended higher, it has not done so in a straight line. Intraday swings have widened. Correlations with other assets have shifted. There have been sessions where gold and equities fall together, followed by days where they decouple sharply.
 
@@ -149,9 +149,9 @@ It is important to separate mechanical selling from structural demand.
 
 ![Graphs](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/3829485c-af75-488f-9871-706b5f989222/Graphs.png)
 
-The monthly average trend illustrates the broader trajectory. The path is volatile, but the direction reflects sustained allocation rather than episodic panic.
+**The monthly average trend illustrates the broader trajectory. The path is volatile, but the direction reflects sustained allocation rather than episodic panic.**
 
-#### Gold as a Behavioural Indicator
+#### **Gold as a Behavioural Indicator**
 
 The more important takeaway is not the price level itself. It is what the rally implies about behaviour.
 
@@ -163,7 +163,7 @@ It also highlights a broader theme. When the foundations of a debt based system 
 
 This does not automatically mean that all financial assets are mispriced. It does signal that confidence is no longer unconditional.
 
-### 3. Bitcoin, Synthetic Liquidity, and the Illusion of Scarcity
+### **3. Bitcoin, Synthetic Liquidity, and the Illusion of Scarcity**
 
 ![btc 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/f5e77260-d139-4a84-b6d1-3667c15ae210/btc+1.png)
 
@@ -191,7 +191,7 @@ What is important for investors to recognise is that this volatility does not au
 
 In a world where:
 
-• Debt levels remain elevated • Interest rates are no longer predictably low • Labour markets are facing automation pressures • Geopolitical trust is fragmenting
+• Debt levels remain elevated<br />• Interest rates are no longer predictably low<br />• Labour markets are facing automation pressures<br />• Geopolitical trust is fragmenting
 
 Leverage becomes fragile.
 
@@ -213,7 +213,7 @@ And both highlight the same underlying theme.
 
 When the rules of the system feel less predictable, capital looks for assets that sit partially outside it.
 
-### 4. Japan, Bond Markets, and the End of Cheap Global Money
+### **4. Japan, Bond Markets, and the End of Cheap Global Money**
 
 If gold reflects uncertainty and Bitcoin reflects leverage, then bond markets reflect stress.
 
@@ -257,7 +257,7 @@ Cheap global liquidity is no longer a given. Funding stability is now a variable
 
 That shift sits at the centre of the current macro landscape.
 
-### 5. When Leverage Retreats, Capital Moves Toward Tangible Income
+### **5. When Leverage Retreats, Capital Moves Toward Tangible Income**
 
 By this point in the report, the pattern should feel clear. We are not dealing with a single shock event. We are dealing with a system where the cost of money is no longer reliably cheap, where leverage is no longer invisibly safe, and where markets are being forced to reprice uncertainty in
 
@@ -267,9 +267,9 @@ When funding becomes unstable, investors stop paying for distant promises and st
 
 This shift usually happens quietly at first. It shows up as preference changes in portfolio construction rather than dramatic headline moves. Investors shorten their time horizons, reduce reliance on leverage, and begin favouring assets where return is driven by cash flow rather than multiple expansion. You see it when “boring” sectors start outperforming, when balance sheet quality matters again, and when investors become more sensitive to liquidity and funding conditions than to growth narratives.
 
-#### There are a few consistent behaviours that tend to emerge in this phase:
+#### **There are a few consistent behaviours that tend to emerge in this phase:**
 
-• higher demand for assets with income visibility today, not theoretical upside later • lower tolerance for leverage where refinancing risk is rising • greater preference for scarcity, utility, and physical constraint rather than synthetic exposure
+• higher demand for assets with income visibility today, not theoretical upside later<br />• lower tolerance for leverage where refinancing risk is rising<br />• greater preference for scarcity, utility, and physical constraint rather than synthetic exposure
 
 This is where the link to real assets becomes important. Real assets are not magical, and they are not immune to cycles. But they do have a structural advantage in environments like this. Their value is anchored in physical demand and constrained supply, not in financial abstraction. Land does not get created because a derivative market expands. A logistics corridor does not become less useful because equities reprice. Housing demand does not vanish because a funding curve shifts. When markets are unstable, that grounding matters.
 
@@ -285,9 +285,9 @@ That is where diversification stops being a slogan and becomes a discipline.
 
 And in the next section, we make it practical. We move from the global macro argument into where capital can still find measurable outcomes, stable income dynamics, and structural demand. This is where New Zealand and Malaysia begin to make sense, not as headline trades, but as middle-ground markets that benefit when the global system deleverages and real assets regain strategic weight.
 
-### 6. A Diversification Framework for Transitional Cycles
+### **6. A Diversification Framework for Transitional Cycles**
 
-#### Positioning Capital in a Leverage-Sensitive Cycle
+#### **Positioning Capital in a Leverage-Sensitive Cycle**
 
 If the earlier sections of this report describe a system under controlled stress, this section addresses the practical question that follows.
 
@@ -295,25 +295,25 @@ How should capital be positioned when leverage is unstable, geopolitics is fragm
 
 Transitional cycles tend to punish concentration and reward structure. In expansion phases, bold directional bets can be amplified by liquidity and momentum. In adjustment phases, fragility is exposed first in the most leveraged and narrative-driven segments of the system. The objective shifts from maximising upside to preserving optionality.
 
-#### The Limits of Single-Asset Conviction
+#### **The Limits of Single-Asset Conviction**
 
 No single asset class currently offers both stability and growth without meaningful trade-offs.
 
-Gold has surged to new highs. Its strength reflects demand for monetary insurance in a world where sovereign debt levels remain elevated and trust between nations is increasingly questioned. Central banks are diversifying reserves. Investors are reassessing long-term currency stability. Gold performs well in this environment because it sits outside the liability structure of any single government.
+**Gold** has surged to new highs. Its strength reflects demand for monetary insurance in a world where sovereign debt levels remain elevated and trust between nations is increasingly questioned. Central banks are diversifying reserves. Investors are reassessing long-term currency stability. Gold performs well in this environment because it sits outside the liability structure of any single government.
 
 However, gold does not produce income. It preserves purchasing power, but it does not compound. In extended periods of volatility, that distinction matters. Protection without yield can stabilise portfolios, but it does not drive forward returns on its own.
 
-Bitcoin offers a different profile. It is scarce by design, yet its price discovery is increasingly influenced by derivatives markets, ETFs, and institutional leverage. It trades continuously and often reacts to liquidity stress before traditional markets. This makes it an early barometer of risk appetite, but also a source of significant short-term volatility.
+**Bitcoin** offers a different profile. It is scarce by design, yet its price discovery is increasingly influenced by derivatives markets, ETFs, and institutional leverage. It trades continuously and often reacts to liquidity stress before traditional markets. This makes it an early barometer of risk appetite, but also a source of significant short-term volatility.
 
 Bitcoin provides asymmetry and long-term optionality, yet it requires tolerance for drawdowns that many investors underestimate.
 
-Equities remain tied to forward earnings assumptions. When labour markets soften, productivity expectations become uncertain, and interest rates remain volatile, valuation multiples come under pressure.
+**Equities** remain tied to forward earnings assumptions. When labour markets soften, productivity expectations become uncertain, and interest rates remain volatile, valuation multiples come under pressure.
 
-Bond markets , once considered reliable counterweights, now reflect structural debt expansion across developed economies. The traditional 60/40 framework depends on stable correlations. Those correlations are being tested.
+**Bond markets** , once considered reliable counterweights, now reflect structural debt expansion across developed economies. The traditional 60/40 framework depends on stable correlations. Those correlations are being tested.
 
 In this environment, diversification is not about spreading capital randomly across asset classes. It is about understanding what each component contributes to portfolio behaviour.
 
-#### Real Assets in a Leverage Reset
+#### **Real Assets in a Leverage Reset**
 
 Periods of monetary transition and leverage reassessment tend to elevate the value of tangible income.
 
@@ -321,13 +321,13 @@ Income-producing property and operational industrial assets are tied to physical
 
 When leverage tightens across the system:
 
-• Visible and recurring income becomes more valuable • Speculative growth assumptions are discounted more aggressively • Assets with multiple exit pathways gain importance
+• Visible and recurring income becomes more valuable<br />• Speculative growth assumptions are discounted more aggressively<br />• Assets with multiple exit pathways gain importance
 
 This dynamic is particularly relevant in a debt-based system under strain. If future growth assumptions are being questioned, assets that generate present cash flow gain relative attractiveness.
 
 Historically, when debt-driven expansions encounter stress or reset phases, the subsequent cycle often rewards holders of tangible, income-producing assets. Paper claims fluctuate with liquidity. Real assets compound through use.
 
-#### Diversification as Structure, Not Pessimism
+#### **Diversification as Structure, Not Pessimism**
 
 The objective in 2026 is not to predict a single outcome. It is to structure capital so that it remains functional across multiple outcomes.
 
@@ -341,9 +341,9 @@ That naturally leads to the final question.
 
 If global capital is seeking balance rather than extremes, which jurisdictions offer yield, policy clarity, and tangible demand at the same time?
 
-### 7. New Zealand and Malaysia
+### **7. New Zealand and Malaysia**
 
-#### Policy Clarity, Currency Strength, and Real Asset Positioning in 2026
+#### **Policy Clarity, Currency Strength, and Real Asset Positioning in 2026**
 
 After examining leverage, gold, Bitcoin, and bond markets, the question becomes practical.
 
@@ -351,11 +351,11 @@ Where can capital sit while the system recalibrates?
 
 In transitional cycles, investors gravitate toward jurisdictions where three variables align:
 
-• Policy visibility • Currency stability • Tangible, income-producing demand
+• Policy visibility<br />• Currency stability<br />• Tangible, income-producing demand
 
 New Zealand and Malaysia meet those conditions today, though through different channels.
 
-#### New Zealand: Stabilisation After Tightening
+#### **New Zealand: Stabilisation After Tightening**
 
 New Zealand is no longer fighting inflation. It is managing the after-effects of tightening.
 
@@ -387,7 +387,7 @@ The New Zealand dollar, although recently strengthening against the USD to the 0
 
 New Zealand today offers clarity rather than excitement. In a fragmented global environment, that is precisely what capital seeks.
 
-#### Malaysia: Yield Premium with Currency Momentum
+#### **Malaysia: Yield Premium with Currency Momentum**
 
 Malaysia is positioned differently but equally relevant in this cycle.
 
@@ -409,7 +409,7 @@ That changes capital behaviour.
 
 Malaysia continues to absorb real economic activity rather than speculative inflows. Demand drivers remain broad-based:
 
-• Port logistics and trade corridors • Manufacturing relocation within ASEAN • Semiconductor and data centre spillover • Infrastructure connectivity including Johor-Singapore integration
+• Port logistics and trade corridors<br />• Manufacturing relocation within ASEAN<br />• Semiconductor and data centre spillover<br />• Infrastructure connectivity including Johor-Singapore integration
 
 This diversification of demand reduces thematic fragility. Real estate income is anchored in operating cash flow rather than hype.
 
@@ -423,13 +423,13 @@ They are not momentum trades. They are allocation trades.
 
 And in transitional cycles, allocation trades tend to outperform narrative trades.
 
-### 8. Featured Listings: The Strategic Middle Ground
+### **8. Featured Listings: The Strategic Middle Ground**
 
-#### New Zealand: The Geopolitical Safe Haven, Locking in Yield Far from the Friction
+#### **New Zealand: The Geopolitical Safe Haven, Locking in Yield Far from the Friction**
 
 ![aged care 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/caded24c-1433-47f0-a043-063b5f70e44a/aged+care+1.webp)
 
-#### Canterbury - Integrated Retirement Village & Care Facility
+#### **Canterbury - Integrated Retirement Village & Care Facility**
 
 Type: Aged Care & Rest Home Facility
 
@@ -441,37 +441,37 @@ Occupancy: 100%
 
 Site / Building: ~2.5 ha land
 
-Notes: The asset combines recurring rental income from independent villas with higher-yielding care bed revenue, creating a blended income profile. Recent refurbishments to common areas and compliance upgrades reduce near-term capex exposure.
+**Notes:<br />** **The asset combines recurring rental income from independent villas with higher-yielding care bed revenue, creating a blended income profile. Recent refurbishments to common areas and compliance upgrades reduce near-term capex exposure.**
 
-Care occupancy across Canterbury remains structurally tight due to limited new development and rising build costs.
+**Care occupancy across Canterbury remains structurally tight due to limited new development and rising build costs.**
 
-Investment Potential:
+**Investment Potential:**
 
-- Defensive sector tied to demographic inevitability
+- **Defensive sector tied to demographic inevitability**
 
-- Blended income model across rental and care fees
+- **Blended income model across rental and care fees**
 
-- Limited pipeline competition due to construction costs
+- **Limited pipeline competition due to construction costs**
 
-- Suitable for hold-and-optimise strategy or institutional healthcare exit
+- **Suitable for hold-and-optimise strategy or institutional healthcare exit**
 
 ![12](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/59c6002a-6286-440e-8830-9f16d7f07ddb/12.jpg)
 
-#### East Tamaki - High-Spec Logistics Facility
+#### **East Tamaki - High-Spec Logistics Facility**
 
-Type: Modern logistics / distribution facility
+**Type: Modern logistics / distribution facility**
 
-Indicative Pricing: ~NZD 55.0m
+**Indicative Pricing: ~NZD 55.0m**
 
-Indicative Net Yield / Cap Rate: ~7.5%–8.0%
+**Indicative Net Yield / Cap Rate: ~7.5%–8.0%**
 
-Occupancy: ~90%–100% (range depending on final lease profile)
+**Occupancy: ~90%–100% (range depending on final lease profile)**
 
-Building: ~100,000 sq ft (approx.)
+**Building: ~100,000 sq ft (approx.)**
 
-Notes : East Tamaki is one of NZ’s most liquid industrial precincts with structurally tight vacancy. In environments where trade routes and supply chains get re-optimised, premium logistics locations often benefit first through stronger tenant demand and pricing power.
+**Notes** :<br />East Tamaki is one of NZ’s most liquid industrial precincts with structurally tight vacancy. In environments where trade routes and supply chains get re-optimised, premium logistics locations often benefit first through stronger tenant demand and pricing power.
 
-Investment Potential:
+**Investment Potential:**
 
 - “Quality logistics” exposure with strong re-leasing defensiveness
 
@@ -481,59 +481,59 @@ Investment Potential:
 
 ![img 3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/acac8b20-43ce-44a4-8af6-21876d7e1a4e/img_3.jpg)
 
-#### Auckland Fringe - Dual-Tower Office Complex (Core-Plus + Optionality)
+#### **Auckland Fringe - Dual-Tower Office Complex (Core-Plus + Optionality)**
 
-Type: CBD-fringe office / mixed-use optionality
+**Type: CBD-fringe office / mixed-use optionality**
 
-Indicative
+**Indicative**
 
-Asking: ~NZD 40.0m
+**Asking: ~NZD 40.0m**
 
-Indicative Cap Rate: ~7.0% (approx.)
+**Indicative Cap Rate: ~7.0% (approx.)**
 
-Occupancy: ~90%
+**<br />Occupancy: ~90%**
 
-Site / Building: ~4,000 m² land | ~12,500 m² built (dual towers)
+**<br />Site / Building: ~4,000 m² land | ~12,500 m² built (dual towers)**
 
-Notes: This is less a “pure office” bet and more an optionality bet: location, transport connectivity, and nearby education/amenity nodes can support repositioning pathways over time. In an adjustment cycle, assets with multiple feasible end-states can be more resilient than single-use assets.
+**Notes:<br />** **This is less a “pure office” bet and more an optionality bet: location, transport connectivity, and nearby education/amenity nodes can support repositioning pathways over time. In an adjustment cycle, assets with multiple feasible end-states can be more resilient than single-use assets.**
 
-Investment Potential:
+**Investment Potential:**
 
-- Core-plus carry while executing leasing/repositioning
+- **Core-plus carry while executing leasing/repositioning**
 
-- Value creation path: staged re-leasing + targeted upgrades (not full redevelopment)
+- **Value creation path: staged re-leasing + targeted upgrades (not full redevelopment)**
 
-- Optionality lens: explore conversion feasibility (where permitted) or hybrid tenant mix to reduce single-sector risk
+- **Optionality lens: explore conversion feasibility (where permitted) or hybrid tenant mix to reduce single-sector risk**
 
-#### Malaysia: The Energy Pivot, Leveraging Supply Chain Shifts and Regional Stability
+#### **Malaysia: The Energy Pivot, Leveraging Supply Chain Shifts and Regional Stability**
 
 ![my 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1b1ba1a3-daaa-42e6-950c-ff5b2af5f2a2/my+1.jpg)
 
-#### Klang Valley – Corporate Tower (En-Bloc Opportunity)
+#### **Klang Valley – Corporate Tower (En-Bloc Opportunity)**
 
-Indicative Pricing: ~ MYR 110.5m – 228.0m
+**Indicative Pricing: ~** MYR 110.5m – 228.0m
 
-Indicative Net Yield: 5.5% – 6.8%
+**Indicative Net Yield:** **5.5% – 6.8%**
 
-Type: Grade A Corporate Office Tower (MSC Malaysia Cybercentre)
+**Type:** Grade A Corporate Office Tower (MSC Malaysia Cybercentre)
 
-Occupancy: 80% – 100%
+**Occupancy:** 80% – 100%
 
-Land / Building: 126,000 sq ft
+**Land / Building:** 126,000 sq ft
 
-Notes: A premier 2026 investment asset within a 9.38-acre integrated development. This boutique office tower offers naming rights and a high-profile presence in one of the Klang Valley's most successful fringe business parks. It is specifically designed for multinational corporations and tech-driven enterprises requiring MSC status.
+Notes:<br />A premier 2026 investment asset within a 9.38-acre integrated development. This boutique office tower offers naming rights and a high-profile presence in one of the Klang Valley's most successful fringe business parks. It is specifically designed for multinational corporations and tech-driven enterprises requiring MSC status.
 
-Investment Potential:
+**Investment Potential:**
 
-- Capital Gains: Capital values in the area have remained resilient due to the lack of new Grade A supply on the Subang fringe.
+- **Capital Gains:** Capital values in the area have remained resilient due to the lack of new Grade A supply on the Subang fringe.
 
-- Yield Stability: The MSC status allows for a wider pool of international tenants, ensuring a defensive income stream even in volatile markets.
+- **Yield Stability:** The MSC status allows for a wider pool of international tenants, ensuring a defensive income stream even in volatile markets.
 
-- Accessibility: Unrivaled logistics connectivity via the Federal Highway, LDP, and NKVE, making it a preferred choice for companies moving away from the congested KL CBD.
+- **Accessibility:** Unrivaled logistics connectivity via the Federal Highway, LDP, and NKVE, making it a preferred choice for companies moving away from the congested KL CBD.
 
 ![DJI 0017-1170x613](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/d9c0224e-2c7c-462b-b148-fbf180456386/DJI_0017-1170x613.jpg)
 
-#### Johor – Large-Scale Industrial Warehouse
+#### **Johor – Large-Scale Industrial Warehouse**
 
 Indicative Pricing: ~MYR 100.0m
 
@@ -543,28 +543,28 @@ Tenure: Freehold
 
 Land / Building: ~9.37 acres | ~176,400 sq ft built
 
-Power Supply: ~1,200 Amp Nearby Demand Drivers: Senai Airport Logistics Hub, YTL–NVIDIA AI corridor, Johor–Singapore connectivity zone
+Power Supply: ~1,200 Amp<br /><br />Nearby Demand Drivers: Senai Airport Logistics Hub, YTL–NVIDIA AI corridor, Johor–Singapore connectivity zone
 
-Notes: This is one of the larger freehold logistics assets currently available in Johor’s northern industrial belt. Its scale, dock configuration, and high-power capacity make it well suited for regional warehousing, hardware staging, and distribution functions supporting Johor’s rapidly evolving technology and data ecosystem.
+Notes:<br />This is one of the larger freehold logistics assets currently available in Johor’s northern industrial belt. Its scale, dock configuration, and high-power capacity make it well suited for regional warehousing, hardware staging, and distribution functions supporting Johor’s rapidly evolving technology and data ecosystem.
 
 The surrounding corridor has experienced visible land value appreciation, driven by increasing hyperscaler, semiconductor, and cross-border logistics activity linked to Johor–Singapore connectivity.
 
 Investment Potential:
 
-- Rare freehold industrial platform with long-term redevelopment optionality
+- **Rare freehold industrial platform with long-term redevelopment optionality**
 
-- Strong alignment with Johor’s emerging AI, cloud, and data-adjacent infrastructure corridor
+- **Strong alignment with Johor’s emerging AI, cloud, and data-adjacent infrastructure corridor**
 
-- Potential to transition from pure logistics into higher-value, power-intensive use over time
+- **Potential to transition from pure logistics into higher-value, power-intensive use over time**
 
-- Clear institutional exit pathways as Johor matures into a regional logistics and digital hub
+- **Clear institutional exit pathways as Johor matures into a regional logistics and digital hub**
 
-Want to discuss any of these opportunities further? Reach out to our team directly:
+**Want to discuss any of these opportunities further?** Reach out to our team directly:
 
 Contact Information :
 
-Petrus Yen - Managing Director Petrus@fairhavenproperty.co.nz
+Petrus Yen - Managing Director<br />Petrus@fairhavenproperty.co.nz
 
-Daarshan Kunasegaran Daarshan.Kunasegaran@fairhavenproperty.co.nz
+Daarshan Kunasegaran<br />Daarshan.Kunasegaran@fairhavenproperty.co.nz<br /><br /><br /><br />
 
-Disclaimer: The property details, financial figures, and projections provided in this article are based on publicly available information and internal estimates. They are intended for informational purposes only and do not constitute financial advice or an offer to invest. Projections such as IRR and equity multiples are indicative only and subject to change based on market conditions, financing terms, and execution strategy. Interested parties should conduct independent due diligence and consult with a qualified advisor before making any investment decisions. Fairhaven Property Group accepts no liability for decisions made based on the information presented herein.
+*Disclaimer:* *<br />* *The property details, financial figures, and projections provided in this article are based on publicly available information and internal estimates. They are intended for informational purposes only and do not constitute financial advice or an offer to invest. Projections such as IRR and equity multiples are indicative only and subject to change based on market conditions, financing terms, and execution strategy. Interested parties should conduct independent due diligence and consult with a qualified advisor before making any investment decisions. Fairhaven Property Group accepts no liability for decisions made based on the information presented herein.*

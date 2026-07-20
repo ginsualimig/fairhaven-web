@@ -139,6 +139,8 @@ These conditions push globally mobile capital to seek smaller markets with polic
 
 Monetary policy (cost of capital). The Reserve Bank cut the OCR to 3.0% in August 2025 , its first move lower in two years. The market and private forecasters expect a gradual easing cycle over the next 12 months, with the OCR projected to reach 2.5% by mid 2026 . This will reduce funding costs, support cap rate compression, and restore feasibility for development.
 
+![Official Cash Rate (OCR) Projection (3)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/d3d5b50d-32aa-4b4d-b619-31a4b7ba2e2f/Official+Cash+Rate+%28OCR%29+Projection+%283%29.png)
+
 Inflation (real yield protection). CPI sat at 2.7 percent year to June 2025 (up 0.5 percent from the previous quarter). Food remains sticky at +5 percent year on year, while rent inflation has dropped to its lowest level in 14 years. Inflation within the 1–3 percent target band means income assets retain their real value, a critical consideration for long-horizon capital.
 
 Growth (out of recession, shallow upswing). GDP grew 0.8 percent in the March 2025 quarter , offsetting an annual decline of 1.1 percent . This indicates New Zealand is emerging from a shallow recession. Forecasts from NZIER project 1.5 percent GDP growth in the year to March 2026 , with further strengthening expected in 2027. Investors see this not as a boom, but as steady footing to anchor capital.
@@ -189,6 +191,8 @@ As New Zealand positions for a slow but steady recovery, investors are increasin
 
 Below are three listings we believe represent institutional-grade potential in the current cycle:
 
+![July image 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/0b3816b4-e4a1-42f2-b777-ce2edf9fc98e/July_image_1.jpg)
+
 #### 1. Auckland – Boutique Hotel / Apartments
 
 Asking Price: NZD 24.75 million Asset Type: Mixed-Use | 62 apartments + 64 car parks (individually titled) Net Yield: ~7.0%–8.0% Net Operating Income: ~NZD 1.7M–2.0M Tenure: Freehold Nearby Demand Drivers: Auckland education hub, transport links, suburban regeneration
@@ -210,6 +214,8 @@ Investment Potential:
 - Exit Strategy: Flexible sell-down, student housing, or hybrid hold
 
 - Key Advantage: Optionality, cash yield plus capital growth pathways
+
+![Final-CGI-Daytime-scaled-e1601037065570-2500x1725](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/975100be-296f-4e18-8ada-2721c668cb28/Final-CGI-Daytime-scaled-e1601037065570-2500x1725.jpg)
 
 #### 2. Auckland – Aged Care Facility
 
@@ -233,6 +239,8 @@ Investment Potential:
 
 - Key Advantage: Defensive sector, demographic tailwinds, government-supported revenue
 
+![Kingpin](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/20159a81-dede-4c7d-92e5-d361cb82e2b4/Kingpin.png)
+
 #### 3. Queenstown – Retail Centre
 
 Rated Valuation (RV): NZD 59.5 million Asset Type: Prime Retail | Multi-tenanted centre Net Yield: ~6.0% Net Operating Income: ~NZD 3.3M Land Size: ~3,285 m² Built-Up Area: ~4,800 m² Nearby Demand Drivers: International tourism, resort economy, luxury residential growth
@@ -254,6 +262,8 @@ Investment Potential:
 - Exit Strategy: Institutional roll-up, long-term retail REIT target
 
 - Key Advantage: Premium location, tourism-driven demand, limited new retail supply
+
+![industrial](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/c561d047-06f3-4930-bf9a-262df5663b5f/industrial.png)
 
 #### 4. Manukau City – Industrial Building
 

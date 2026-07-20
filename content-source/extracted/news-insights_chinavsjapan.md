@@ -340,11 +340,15 @@ That brings the focus naturally to New Zealand and Malaysia.
 
 #### New Zealand: Yield Stability With Policy Support Now in Motion
 
+![Untitled design (13)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e82ab047-bbce-4f56-aef3-82b6b8f0f3e8/Untitled+design+%2813%29.png)
+
 New Zealand is entering the next phase of the cycle from a position income investors tend to favour. Monetary tightening has already done its work, inflation pressure has moderated, and policy has clearly pivoted toward growth support. This matters because real assets typically begin to reprice when the cost of capital falls faster than income does.
 
 As shown in the CPI versus OCR chart, headline inflation has cooled substantially from its 2022–2023 peak. By Q3 2025, CPI has eased toward the low-3 percent range, while the Official Cash Rate has already been reduced to 2.25 percent. With projected inflation trending lower into 2026 and policy rates stabilising in the low twos, real interest rates are no longer restrictive. This is the environment in which yield assets regain relevance.
 
 The implication for property is not an immediate boom, but a gradual re-rating of income. When borrowing costs compress toward income yields, investors are paid to hold assets through a slow recovery rather than relying on rapid capital appreciation.
+
+![New dwellings NZ by type](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/6b38a517-8910-42eb-9ad1-d8eceff32f81/New+dwellings+NZ+by+type.png)
 
 The housing and construction data reinforces this setup. The consents chart by dwelling type shows a clear downshift in new supply from the 2021–2022 peak. Stand-alone houses, apartments, and retirement village units have all seen materially lower volumes through 2024 and 2025.
 
@@ -352,11 +356,15 @@ This is not a demand collapse. It is a supply response to higher funding costs, 
 
 On pricing, national housing indicators suggest stabilisation rather than renewed decline. Transaction volumes remain measured, but the pace of softening has slowed, and price movements are increasingly flat rather than negative. This is consistent with the early stage of a yield-led recovery rather than a speculative rebound.
 
+![NZDUSD- Dec25](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/40c87b54-fc4c-4c0a-bdef-becb865ea9e4/NZDUSD-+Dec25.png)
+
 Currency adds another layer to the investment case. The NZD remains weak relative to its long-term average, effectively lowering the entry cost for offshore capital. If the currency stays soft while domestic rates ease, foreign investors are acquiring New Zealand income streams at a discount, with potential currency upside over a medium-term horizon.
 
 Taken together, the data points to a market where downside risk has narrowed, yield is doing more of the work, and policy conditions are becoming progressively more supportive. New Zealand’s appeal in this cycle is not acceleration, but stability with re-rating optionality.
 
 #### Malaysia: Yield Premium Plus Currency Strength in a Supportive Policy Setting
+
+![OPR dec25](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/9ba4d55a-1413-4c76-ad20-aeb343c4656c/OPR+dec25.png)
 
 Malaysia plays a different role in the global capital map, but the attraction is equally compelling. The key shift is that policy is no longer just neutral. It is now mildly supportive.
 
@@ -364,9 +372,13 @@ The OPR chart shows Bank Negara Malaysia’s pivot in July 2025, when the policy
 
 This shift matters for real assets. Lower policy rates reduce hurdle rates without undermining financial stability.
 
+![CPI my dec25](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/7937fa5d-eccf-4ef0-bc6c-1193df53bf5b/CPI+my+dec25.png)
+
 Inflation dynamics support this policy stance. As shown in the CPI chart, Malaysian inflation has cooled steadily through 2024 and 2025, settling in the low-to-mid 1 percent range. This creates a positive real yield environment without forcing restrictive monetary settings.
 
 For investors, this combination is powerful. Property income yields remain well above inflation and borrowing costs, preserving a wide margin of safety.
+
+![MYRUSD- Dec25](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/fb133621-200b-4bc0-bc8e-faaf44ade49c/MYRUSD-+Dec25.png)
 
 Currency conditions further strengthen Malaysia’s positioning. Unlike many emerging-market peers, the ringgit has shown relative resilience and signs of recovery. This reduces FX anxiety around income streams and reframes Malaysia as a quality yield market rather than a pure risk trade.
 
@@ -386,6 +398,8 @@ This is not a call for speculative risk-taking. It is a case for disciplined pos
 
 #### New Zealand: Stabilised Yield in a Lower-Rate Environment
 
+![12](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/59c6002a-6286-440e-8830-9f16d7f07ddb/12.jpg)
+
 #### East Tamaki – High-Spec Logistics Facility
 
 Asking Price: NZD 55 million Asset Type: Industrial | Modern warehouse and office with large canopy Land Size: Prime industrial zoned parcel (exact site area undisclosed, typical for precinct) Built-Up Area: ~100,000 sq ft Nearby Demand Drivers: SH1 access, Port of Auckland, Auckland Airport, Wiri Inland Port, East Tamaki industrial cluster
@@ -403,6 +417,8 @@ Investment Potential:
 - Exit Strategy: Institutional buyer or logistics REIT
 
 - Key Advantage: Premium location with superior access to Auckland’s logistics spine
+
+![July image 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/2ef9ac83-a93d-40f1-899e-61a3284d36f6/July_image_1.jpg)
 
 #### Auckland – Boutique Hotel / Serviced Apartment Block
 
@@ -430,6 +446,8 @@ Investment Potential:
 
 #### Malaysia: Early-Stage Yield with AI-Adjacent Growth
 
+![34](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/4006a71a-7a57-4cb2-af65-8a33683a88d8/34.jpg)
+
 #### Port Klang – Logistics and Distribution Facility
 
 Asking Price: MYR 60 million Asset Type: Industrial | Two-storey logistics and distribution facility Land Size: ~3.76 acres Built-Up Area: ~110,000 sq ft Tenure: Leasehold with approximately 88 years remaining Nearby Demand Drivers: Port Klang Free Zone, server-import staging, Klang Valley distribution corridor
@@ -447,6 +465,8 @@ Investment Potential:
 - Exit Strategy: Institutional logistics REIT or cross-border portfolio roll-up
 
 - Key Advantage: Transit-oriented freehold property in KL’s densest workforce hub with adaptive reuse potential
+
+![1 (2)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/becc1beb-918f-44fa-bbb6-c1fc25741142/1+%282%29.jpg)
 
 #### Johor – Industrial Warehouse
 

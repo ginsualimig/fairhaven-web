@@ -59,6 +59,8 @@ For real asset investors, this matters. When listed markets price in perfection,
 
 Most investors did not consciously decide to make a large bet on AI. The bet was made for them.
 
+![S&P500](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/6c32565b-4bb8-4033-aa85-375cf6a4c82e/S%26P500)
+
 The S&P 500 is a market capitalisation weighted index. As the largest technology and AI linked firms rallied, they became an outsized share of the benchmark. As of late 2025, the top ten companies in the S&P 500 account for close to 40% of the entire index by weight, with names such as Nvidia, Microsoft, Apple, Alphabet and Amazon at the core of that group. The result is that every contribution into a simple index fund sends a disproportionate share of each dollar into a small cluster of AI exposed firms.
 
 Layered on top of that is the capex cycle itself. Analysts now estimate that global AI and cloud leaders will spend hundreds of billions of dollars per year on data centres, chips, and supporting infrastructure through the middle of this decade. The optimism baked into current equity valuations implies that this investment will eventually translate into roughly two trillion dollars in annual revenues from AI related activities.
@@ -66,6 +68,8 @@ Layered on top of that is the capex cycle itself. Analysts now estimate that glo
 The problem is timing. Revenue has not yet caught up with the capital being deployed. The market is already pricing AI as if it will become one of the most profitable engines in corporate history, long before the income statement reflects it.
 
 #### Circular Financing: Growth That Feeds On Itself
+
+![CircularFinancing](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e17632ae-df03-449b-afb8-59bf4cdc127f/CircularFinancing)
 
 One reason the AI story feels so powerful is that everyone involved appears to be growing at once. Part of that growth is genuine. Part of it is the result of circular financing.
 
@@ -137,6 +141,8 @@ The combination of lower rates and constrained supply creates conditions that hi
 
 Inflation has now returned to within the central bank’s target band. Annual CPI came in at 2.7 percent for the June 2025 quarter, helped by a decline in imported inflation and moderated wage growth. Tradables inflation has softened due to normalised global freight rates and stable fuel costs. Non-tradables remain elevated in categories such as food and insurance, but the overall trend is downward.
 
+![Untitled design (7)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1fb83f22-5148-4005-808c-b1c8e25662b5/Untitled+design+%287%29.png)
+
 With the OCR at 2.5 percent, real short-term rates are effectively neutral. The Reserve Bank has indicated that another 25-basis-point reduction may occur in early 2026, which would bring the policy rate toward 2.25 percent before stabilising. This is not an aggressive easing cycle. It is a controlled glide, designed to support demand without reigniting inflation. Historically, these are the conditions under which real assets experience orderly re-pricing rather than volatile swings.
 
 What matters for investors is the expanding spread between borrowing costs and income yields. A property producing a 6 to 7 percent net yield now sits several percentage points above both inflation and debt costs. That margin is the basis for sustained interest in industrial, logistics, and managed-residential sectors.
@@ -154,6 +160,8 @@ Forward indicators provide further clarity. Business confidence surveys show sen
 The housing market continues to hold steady despite a prolonged period of higher interest rates. While seasonal fluctuations remain visible, price levels have largely stabilised. The REINZ House Price Index rose 0.1 percent year on year in August, although national median prices declined 1.3 percent month on month. Volumes remain soft, but the pace of decline has slowed noticeably compared to the start of the year.
 
 The more important shift is in supply. New residential construction is cooling in a controlled but decisive manner. Using the latest data from Stats NZ, annual dwelling consents have eased across almost every category since their 2021 peak. The reduction has been most significant in stand-alone houses and retirement village units, while apartments and townhouses continue to moderate from earlier highs.
+
+![Untitled design (12)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/7068d176-9ee5-42fb-b2a6-50e54676c695/Untitled+design+%2812%29.png)
 
 This data confirms a clear trend. After construction peaked between 2021 and 2022, activity has steadily declined through 2023 and 2024. For 2025, the early-year trajectory suggests stabilisation rather than a renewed downturn, but at materially lower levels than the previous cycle. Over the period from January 2023 to August 2025, average monthly consents have fallen from above 3,900 units to closer to 2,800 units. July 2025 recorded 3,252 consents while the August estimate sits at approximately 3,080. Annualised volumes near 34,000 units are only slightly below the prior year but well under the peak years.
 
@@ -237,6 +245,8 @@ Below are the listings that reflect these conditions and represent the type of a
 
 #### New Zealand: Stabilised Yield in a Lower-Rate Environment
 
+![12](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/59c6002a-6286-440e-8830-9f16d7f07ddb/12.jpg)
+
 #### East Tamaki – High-Spec Logistics Facility
 
 Asking Price: NZD 55 million Asset Type: Industrial | Modern warehouse and office with large canopy Land Size: Prime industrial zoned parcel (exact site area undisclosed, typical for precinct) Built-Up Area: ~100,000 sq ft Nearby Demand Drivers: SH1 access, Port of Auckland, Auckland Airport, Wiri Inland Port, East Tamaki industrial cluster
@@ -254,6 +264,8 @@ Investment Potential:
 - Exit Strategy: Institutional buyer or logistics REIT
 
 - Key Advantage: Premium location with superior access to Auckland’s logistics spine
+
+![July image 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/2ef9ac83-a93d-40f1-899e-61a3284d36f6/July_image_1.jpg)
 
 #### Auckland – Boutique Hotel / Serviced Apartment Block
 
@@ -281,6 +293,8 @@ Investment Potential:
 
 #### Malaysia: Early-Stage Yield with AI-Adjacent Growth
 
+![34](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/4006a71a-7a57-4cb2-af65-8a33683a88d8/34.jpg)
+
 #### Port Klang – Logistics and Distribution Facility
 
 Asking Price: MYR 60 million Asset Type: Industrial | Two-storey logistics and distribution facility Land Size: ~3.76 acres Built-Up Area: ~110,000 sq ft Tenure: Leasehold with approximately 88 years remaining Nearby Demand Drivers: Port Klang Free Zone, server-import staging, Klang Valley distribution corridor
@@ -298,6 +312,8 @@ Investment Potential:
 - Exit Strategy: Institutional logistics REIT or cross-border portfolio roll-up
 
 - Key Advantage: Transit-oriented freehold property in KL’s densest workforce hub with adaptive reuse potential
+
+![1 (2)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/becc1beb-918f-44fa-bbb6-c1fc25741142/1+%282%29.jpg)
 
 #### Johor – Industrial Warehouse
 

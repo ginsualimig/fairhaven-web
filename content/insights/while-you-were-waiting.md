@@ -35,6 +35,10 @@ In the United States, the Federal Reserve cut the federal funds rate to 3.50 to 
 
 If rates do eventually drop to more accessible levels, every buyer currently on the sidelines will re-enter simultaneously, driving prices up through competitive demand. The investors who waited will end up paying more for the same assets than they saved on the cost of debt. This is not a hypothetical. It is the outcome that has played out in every rate cycle over the past three decades. The investors who waited for rates to fall in New Zealand are now facing hikes. Those who waited for US mortgage rates to fall are still waiting at 6.48%. The signal did not come. The window they were waiting to open is starting to close.
 
+![03 us rates](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/fabfc4ec-42b9-4882-b99f-956ed7e42fa5/03_us_rates.png)
+
+![04 rbnz ocr](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/a3acd724-aeea-41db-bf41-f3bd479a0b89/04_rbnz_ocr.png)
+
 ### 2. The Recovery Nobody Announced
 
 While private investors have been waiting for the signal to move, institutional capital has been moving.
@@ -44,6 +48,12 @@ According to MSCI's Asia Pacific Capital Trends report, commercial real estate t
 Core-plus and value-add strategies now dominate, accounting for over 60% of investor preferences. Investors are underwriting rental growth and durable income as the primary sources of return. Industrial and logistics assets remain firmly in focus, with roughly one in five investors specifically prioritising the sector. Data centres have gained significant traction as a distinct institutional allocation, now embedded in portfolio strategies across the region.
 
 Morgan Stanley's April 2026 real estate market outlook states directly: geopolitical uncertainty is actively elevating real estate's appeal as an inflation hedge with durable income and long-term structural support. Institutional investors are raising more capital for real estate, while fewer are waiting to withdraw funds. The institutional community's posture on Asia Pacific real estate changed between 2024 and 2026. Net buying intentions tripled. Transaction volumes hit four-year highs. Private investors watching from the sidelines saw caution in the headlines and missed the shift underneath them.
+
+![01 buying intentions1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/c9ec016e-95e2-48ec-bf14-4cc73515be15/01_buying_intentions1.png)
+
+![02 cre volumes](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/f4f86f9e-65e3-4e37-9f78-f9d09241892e/02_cre_volumes.png)
+
+![08 sector prefs](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/9587ebf6-9577-4ac7-a959-b58d012440e0/08_sector_prefs.png)
 
 ### 3. The Window Before the Train Arrives
 
@@ -56,6 +66,8 @@ Infrastructure of this kind reprices adjacent assets at completion, not at annou
 Nomura Research has flagged robust demand for Malaysian industrial assets driven by increased FDI into the JS-SEZ. Maybank Investment Bank has maintained Malaysian industrial property as the key growth segment for 2026. The window is six months. January 2027 is not a distant horizon. The investors who are positioned before the opening will capture the repricing. Those who wait for confirmation will be buying into a market that has already adjusted.
 
 Beyond the RTS, Malaysia's macro foundation supports the broader thesis. GDP growth of 4 to 5% for 2026, inflation at approximately 1.6%, OPR steady at 2.75%, and real yields on industrial assets of 7 to 8% nominal produce a real return spread that developed markets cannot replicate. The Milken Institute ranked Malaysia 23rd globally and first in Southeast Asia for investment attractiveness in 2026.
+
+![09 real yield](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/7634319f-e667-47e6-8dce-58d85c54649c/09_real_yield.png)
 
 ### 4. Market Update: Where Things Stand in June 2026
 
@@ -70,6 +82,12 @@ In New Zealand, the RBNZ OCR sits at 2.25%, but the May MPC meeting produced a t
 Within New Zealand, income-producing assets in structurally constrained segments continue to perform: industrial assets in South Auckland and Christchurch where vacancy sits below 3%, healthcare and essential services with long leases, and regional commercial assets at yields above 8% represent defensible positions that do not require macro recovery to generate returns.
 
 Malaysia continues to operate from a position of structural strength. The combination of growth, low inflation, a stable monetary environment, and the infrastructure catalysts described in Section 3 produce a market where the fundamental case does not require either macro recovery or rate normalisation.
+
+![05 gdp growth](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/3c92cbff-3492-42c8-9822-0bbe15eaf7bb/05_gdp_growth.png)
+
+![06 inflation](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1861a5b2-1424-417b-8839-921713651627/06_inflation.png)
+
+![07 nz property](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/509a695f-0c40-473b-a33d-c2e661ed610b/07_nz_property.png)
 
 ### 5. The Cost of the Sidelines
 
@@ -91,6 +109,8 @@ The following assets reflect the core thesis of this edition: the recovery windo
 
 ### New Zealand
 
+![nz 1 may](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/42a90083-4f39-473c-96a0-89b28fd6d261/nz+1+may.jpg)
+
 #### Auckland — Fully Leased Mixed-Use Retail Investment
 
 Property Type: Retail / Hospitality, Mixed-Use
@@ -106,6 +126,8 @@ Tenancy: 2 tenancies, 100% occupied
 Notes: A fully leased ground-floor retail and showroom asset within a recently completed, award-winning mixed-use development in the Auckland city fringe. The property occupies a prominent corner position within a high-density residential precinct, anchored by an established all-day hospitality operator on a 6-year lease with fixed annual rental increases and multiple renewal rights. A secondary tenancy adds diversified income across showroom and professional office use. The building is finished to a high standard with over four metres of stud height and significant natural light frontage.
 
 Investment Potential: The Auckland city fringe mixed-use corridor is one of the most structurally resilient segments of the NZ commercial market, supported by high residential density, consistent pedestrian demand, and the non-discretionary nature of neighbourhood hospitality and professional services. In a market where broad commercial sentiment remains cautious, a fully leased asset anchored by an established operator with a long lease and fixed escalations provides exactly the income visibility that the current cycle rewards. The property is not dependent on market recovery to perform. It is generating income today, at a yield level that reflects current pricing without requiring a rate cut to justify entry.
+
+![21d7fedb-9e80-4441-a483-cb81a1af3932](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/4e346132-7a12-41e9-90be-dea84075ade5/21d7fedb-9e80-4441-a483-cb81a1af3932.jpg)
 
 #### Auckland (South) — Cold Storage and Logistics Facility
 
@@ -127,6 +149,8 @@ Investment Potential: Cold storage infrastructure in New Zealand is among the mo
 
 ### Malaysia
 
+![8373fd dc04f1513018455181122d7ef1cd678c~mv2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/0cf3e472-cf9b-4195-b030-14c143937b99/8373fd_dc04f1513018455181122d7ef1cd678c%7Emv2.jpg)
+
 #### Shah Alam, Selangor — Data Centre Ready Industrial Facility
 
 Property Type: Detached Industrial / High Power Infrastructure
@@ -146,6 +170,8 @@ Notes: A recently upgraded industrial facility in Shah Alam's Section 26 industr
 Investment Potential:
 
 Investment Potential: Shah Alam is emerging as the overflow corridor for Klang Valley's data centre demand, as Cyberjaya and Subang have limited remaining land at viable costs. The 2,000 amp power supply on title, rare in the sub-RM 50M industrial segment, makes this asset immediately attractive to a tenant pool that would otherwise require 18-plus months of infrastructure lead time. This ties directly to the article's infrastructure thesis: owning high-power industrial stock before hyperscale operators exhaust the primary corridors means entering ahead of the repricing.
+
+![my 2 may](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/6e9a4db6-344b-4128-a0b3-cea00e6ffa4f/my+2+may.jpg)
 
 #### Johor Bahru (Kulai) — Logistics Hub, Freehold Industrial
 

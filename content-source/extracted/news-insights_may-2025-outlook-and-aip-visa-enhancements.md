@@ -46,17 +46,25 @@ New Zealand’s macroeconomic indicators reflect a cautiously optimistic environ
 
 #### GDP Growth and Inflation
 
+![GDP Growth %](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/38174f92-b26b-47dd-b093-1ab6af087a33/GDP+Growth+%25.png)
+
 The Reserve Bank of New Zealand (RBNZ) projects real GDP growth of 2.0% for 2025, up slightly from sub-1.5% levels in 2024. This modest but improving pace reflects a stabilizing economy as monetary policy shifts from restraint to accommodation. Key sectors including tourism, agriculture, and education, are showing early signs of recovery, with international demand picking up across services and exports.
+
+![Consumer Price Index (CPI)   Inflation Rate %](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/dfc4ed93-f96a-4545-a9a6-c72b773a5865/_Consumer+Price+Index+%28CPI%29+_+Inflation+Rate+%25.png)
 
 Inflation has eased meaningfully, now sitting at 2.5% as of March 2025, comfortably within the RBNZ’s 1–3% target band. This marks a significant improvement from the 5–7% highs seen in 2022–2023. The moderation in consumer prices supports the RBNZ’s dovish shift and suggests that the worst of the cost-of-living pressure has passed, making operating environments more predictable for landlords and developers.
 
 #### Official Cash Rate (OCR) Trajectory
+
+![Official Cash Rate (OCR) Projection](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1e2eb698-fc48-43ee-bdf2-70ba28f8699d/Official+Cash+Rate+%28OCR%29+Projection.png)
 
 In line with declining inflation and slowing growth, the RBNZ reduced the OCR to 3.5% in April 2025, down from a peak of 5.5% in late 2023. Markets are now pricing in at least one more cut in 2025, potentially bringing the rate closer to 3.0% . This easing stance bodes well for leveraged investors, as lower borrowing costs directly enhance project IRRs and equity returns.
 
 This pivot represents the late stages of New Zealand’s interest rate cycle. Our view at Fairhaven is that we are approaching the bottom of the cycle , and as such, the window to capitalize on discounted valuations and soft credit conditions is rapidly narrowing . Once rates stabilize or begin to climb again in 2026, the market will likely reprice risk, and asset values will adjust accordingly, making now a particularly attractive moment to deploy capital.
 
 #### Foreign Exchange Trends
+
+![NZDUSD 2025-05-13 16-44-09](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/4a7ee11a-b36f-48f7-b364-fb0e96e434c4/NZDUSD_2025-05-13_16-44-09.png)
 
 The New Zealand dollar (NZD) remains materially undervalued against the U.S. dollar, trading at approximately 0.59 NZD/USD as of May 2025. For context, the NZD was trading as low as 0.57 in late 2024 and has ranged between 0.57–0.62 over the past six months.
 
@@ -216,13 +224,19 @@ Our strategies include:
 
 ### Live real estate investment options across New Zealand
 
+![hotel or apartment](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/d3cc6de3-8a13-4153-bab5-4b1c6ba7c1a0/hotel+or+apartment.png)
+
 #### 1. Auckland City (Boutique Hotel / Apartments)
 
 Asking price - NZD 24,500,00 Land size - 3,634m² Built Up Area - 3,725m² Estimated Cap Rate - 7% - 8% Estimated NOI - NZD 1,715,000 - 1,960,000 Est. Occupancy - 85%-90%
 
+![Kingpin](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/20159a81-dede-4c7d-92e5-d361cb82e2b4/Kingpin.png)
+
 #### 2. Queenstown (Retail Centre)
 
 Rated Valuation (RV) - NZD 59,500,000 Land size - 3,285 m² Built Up Area - 4,800m² Estimated Cap Rate - 6% Estimated NOI - NZD 3,316,819 Est. Occupancy - 80%
+
+![industrial](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/c561d047-06f3-4930-bf9a-262df5663b5f/industrial.png)
 
 #### 3. Manukau City (Industrial Building)
 

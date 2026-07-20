@@ -49,6 +49,8 @@ Lower rates, combined with sustained digital infrastructure spending, create an 
 
 When hyperscalers commit to a new region, headlines often focus on the data centre itself. The real opportunity, however, lies in the layers that surround it. Every major cloud investment sets off a chain reaction. Power grids are upgraded, logistics capacity expands, and new residential demand emerges to house the growing technical workforce. This is the spillover zone, and it is where long-term value often compounds quietly before markets catch on.
 
+![Untitled design (6)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/10f71557-ca57-4dca-bc2c-3c6a98888efa/Untitled+design+%286%29.png)
+
 #### Malaysia: From Follower to Regional Anchor
 
 Malaysia’s AI infrastructure story has accelerated rapidly in 2025. What began as a handful of announcements is now a nationwide build-out. Microsoft’s USD 2.2 billion investment into cloud and AI infrastructure includes new data centres in Kuala Lumpur and Johor, while Google’s USD 2 billion allocation will fund its first Malaysian cloud region and an adjoining data facility. Together, these two projects alone represent one of Southeast Asia’s most concentrated surges in digital infrastructure spending.
@@ -79,11 +81,15 @@ New Zealand’s economic setting has shifted from restraint to recovery. The Res
 
 In its October statement, the RBNZ confirmed that inflation has returned to within the 1–3 percent target band, with headline CPI at 2.7 percent for the year to June. Core inflation is moderating as wage growth cools and labour-market tightness eases. The Bank signalled one more potential 25-basis-point cut in early 2026, which would bring the OCR to around 2.25 percent before holding steady through mid-year.
 
+![Untitled design (7)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1fb83f22-5148-4005-808c-b1c8e25662b5/Untitled+design+%287%29.png)
+
 This gentle easing marks a deliberate shift toward a “low-for-longer” posture. Monetary conditions remain restrictive in real terms, but the direction is now supportive. For real-asset investors, this represents the first credible signal that the cycle has turned.
 
 #### Inflation and Real Yields
 
 Price pressure continues to unwind across most categories. Food inflation remains sticky at roughly 5 percent year-on-year, but rents are rising at their slowest pace in over a decade. Tradables inflation is easing as global freight and energy markets normalise. With the OCR at 2.5 percent and CPI at 2.7 percent, short-term real yields are close to zero, a neutral but stable setting that supports risk-asset re-rating.
+
+![Untitled design (8)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/451b6e53-5909-4aab-a24d-21c024499e19/Untitled+design+%288%29.png)
 
 From an investor’s view, this creates a unique window where nominal income yields of 6–8 percent clear inflation by several percentage points. That differential is the foundation for value restoration in income property.The crossover demonstrates improving real returns for income-producing assets.
 
@@ -96,6 +102,8 @@ The labour market is loosening in an orderly way. Unemployment rose to 5.2 perce
 Investor surveys show confidence gradually returning, led by institutions repositioning for the next cap-rate compression phase. Domestic capital, once sidelined by higher debt costs, is starting to re-enter income assets that can generate predictable cash flow.
 
 #### Housing and Construction Supply
+
+![Untitled design (9)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/f559236a-502f-4244-988a-fbad01a04197/Untitled+design+%289%29.png)
 
 Residential construction has cooled without collapsing. 3,252 new dwellings were consented in July 2025, bringing the annual total to about 33,900 units, only 3 percent below the previous year. The decline in supply coincides with improving financing conditions, which often marks the beginning of a stabilisation phase.
 
@@ -187,6 +195,8 @@ The following listings illustrate how yield, location, and timing intersect acro
 
 Below are three listings we believe represent institutional-grade potential in the current cycle:
 
+![a2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/dab83763-ff8c-4437-a522-13b65fa9e6f1/a2.jpg)
+
 #### 1. Johor – Industrial Warehouse (Senai-Seelong)
 
 Asking Price: MYR 100 million Asset Type: Industrial | Single-storey warehouse with 29 dock levellers and 1,200 Amp power supply Land Size: ~3.2 ha Built-Up Area: ~176,400 sq ft Tenure: Freehold Nearby Demand Drivers: Senai Airport Logistics Hub, YTL–NVIDIA data-centre corridor, Johor–Singapore high-connectivity zone
@@ -204,6 +214,8 @@ Investment Potential:
 - Exit Strategy: Institutional logistics fund or partial redevelopment for data-adjacent use
 
 - Key Advantage: Rare large freehold parcel with power capacity near Johor’s AI and logistics growth zone
+
+![1658483371Banner5](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/f4bcab9c-e284-4dfc-9465-e0ee0adf9ae9/1658483371Banner5.jpg)
 
 #### 2. Port Klang – Logistics & Distribution Facility (Pulau Indah Industrial Park)
 
@@ -223,6 +235,8 @@ Investment Potential:
 
 - Key Advantage: Direct exposure to Malaysia’s core port-based logistics ecosystem with stable tenancy base
 
+![11578 1685600127 5EdgPro5 p1shrestawithpool 0](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/ae33237c-a063-422f-93be-5d176352c166/11578_1685600127_5EdgPro5_p1shrestawithpool_0.jpg)
+
 #### 3. Kuala Lumpur – Hospitality / Co-Living Asset (Brickfields)
 
 Asking Price: MYR 35 million Asset Type: Hospitality / Residential hybrid | 3-storey hostel building with 96 beds Land Size: ~35,379 sq ft Built-Up Area: ~4,800 sq ft Tenure: Freehold Nearby Demand Drivers: KL Sentral transport interchange, tertiary education cluster, and corporate workforce accommodation
@@ -240,6 +254,8 @@ Investment Potential:
 - Exit Strategy: Reposition as managed co-living or corporate long-stay asset
 
 - Key Advantage: Transit-oriented freehold property in KL’s densest workforce hub with adaptive reuse potential
+
+![industrial](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/c561d047-06f3-4930-bf9a-262df5663b5f/industrial.png)
 
 #### 4. Manukau City – Industrial Building
 
@@ -260,6 +276,8 @@ Investment Potential:
 - Exit Strategy: Long-term hold or institutional acquisition
 
 - Key Advantage: Defensive sector, supply-constrained location, scale suitable for institutional buyers
+
+![1 (2)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e88be5f9-0794-4082-9e6c-714e3e4d8989/1+%282%29.jpg)
 
 #### 5. Auckland – Industrial Facility
 

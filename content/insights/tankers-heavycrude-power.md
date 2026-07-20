@@ -47,6 +47,8 @@ To understand why this matters, you have to start with the crude itself.
 
 Much of Venezuela’s export blend is heavy and high in sulphur. Heavy crude is thicker, produces more residue, and requires complex refinery hardware to process efficiently. Only a subset of refineries can run it properly at scale, typically facilities with coking units and deep desulphurisation capability.
 
+![Untitled design (18)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/cf5fc7ec-4557-47e2-8887-ebddcb381275/Untitled+design+%2818%29.png)
+
 When heavy crude is suddenly harder to move, refineries that depend on it cannot just “swap barrels” without cost. They either pay up for similar heavy grades, cut utilisation, or change their product slate.
 
 That is the hidden leverage point: when the constraint is refinery configuration, the shock travels through the physical system, not just paper markets.
@@ -88,6 +90,8 @@ When investors cannot confidently price the endgame, they usually do three thing
 - add “hard” hedges that are not dependent on one political path
 
 #### What about Gold?
+
+![Untitled design (16)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/8822964c-4fd1-4f27-984a-e3708d693486/Untitled+design+%2816%29.png)
 
 That last point above on hedges is where gold often re-enters the conversation. As we write this, in early January 2026, commentary around gold include banks pushing more aggressive upside scenarios and higher forecast bands, reflecting the market’s appetite for insurance when geopolitical and inflation risks feel unanchored. Gold’s new highs are consistent with rising demand for insurance assets amid geopolitical and policy uncertainty, with major banks also lifting rate-cut expectations in 2026 which supports non-yielding hedges.
 
@@ -415,17 +419,23 @@ New Zealand’s appeal in this phase of the cycle is primarily about timing .
 
 The inflation shock has already passed through the system. Policy tightened early and aggressively, and easing has already begun. With the Official Cash Rate now at 2.25 percent and inflation moderating into the low-3 percent range, real rates are no longer restrictive. This matters because real assets typically reprice when the cost of money falls faster than income does.
 
+![Untitled design (13)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e82ab047-bbce-4f56-aef3-82b6b8f0f3e8/Untitled+design+%2813%29.png)
+
 This chart shows the regime shift clearly. Monetary policy is no longer fighting inflation. It is creating space for income assets to stabilise and re-rate. Importantly, this is happening without the need for aggressive growth assumptions.
 
 New Zealand property is not entering a speculative phase. It is entering a stabilisation phase where income matters more than near-term price movement. As borrowing costs fall while rents remain anchored, the spread between funding and income begins to improve.
 
 On the supply side, the story is even clearer.
 
+![Untitled design (15)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/c1d932a1-ad84-4e18-89dc-01fb2c80a9a3/Untitled+design+%2815%29.png)
+
 Residential construction has stepped down materially from the 2021–2022 peak across stand-alone homes, apartments, and retirement units. Development activity has been constrained by build costs, credit availability, and margin pressure. This reduction in future supply tends to firm occupancy and rents before it lifts headline prices.
 
 Historically, New Zealand real estate cycles bottom on supply, not demand. This chart suggests that process is already underway, with some upside in supply being observed as of end of 2025 comparing to previous year.
 
 Currency dynamics add another layer of asymmetry.
+
+![Untitled design (17)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/263069cb-2366-4f27-8634-71997c7ea773/Untitled+design+%2817%29.png)
 
 The New Zealand dollar remains below its long-term average, lowering the effective entry price for offshore capital. For investors funding in stronger currencies, this creates a profile where income is earned locally while any currency normalisation becomes upside rather than a prerequisite.
 
@@ -437,15 +447,21 @@ Malaysia plays a different role in global portfolios, but one that is increasing
 
 The key shift is that monetary policy is no longer just stable. It is now mildly supportive. Bank Negara’s decision to cut the Overnight Policy Rate to 2.75 percent in 2025 marked a transition from inflation defence to growth support, and policy has since remained steady.
 
+![Untitled design (20)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/457b9f57-301e-4e89-aae2-e22940b06cb0/Untitled+design+%2820%29.png)
+
 This stability matters. It reduces rate uncertainty while keeping borrowing costs manageable for income-producing assets.
 
 Inflation dynamics reinforce the picture.
+
+![Untitled design (14)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/be76e3e6-4b09-4b38-b7bc-86152a687609/Untitled+design+%2814%29.png)
 
 Headline inflation has eased into the low-to-mid 1 percent range, creating a positive real yield environment without forcing restrictive conditions. For real assets, this is close to ideal: funding costs are controlled, income yields remain attractive, and policy credibility is intact.
 
 Malaysia’s yield premium remains one of its strongest differentiators. Prime industrial and logistics assets continue to trade at yields materially above those in developed markets, including Singapore. As global rates fall, that spread becomes increasingly valuable.
 
 Currency performance strengthens the case further.
+
+![Untitled design (19)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/97bd7e1f-488f-4e95-abf2-3a5b053630ed/Untitled+design+%2819%29.png)
 
 The ringgit has emerged as one of the stronger-performing currencies in the region, supported by improving fundamentals, firmer capital flows, and growing confidence in Malaysia’s reform trajectory. With USD/MYR continuing to trend lower, currency risk is no longer a background concern but an active tailwind for offshore investors. This shifts Malaysia’s positioning away from the traditional high-risk emerging market label and toward a quality carry destination with improving FX dynamics.
 
@@ -466,6 +482,8 @@ This is why capital tends to arrive quietly in these markets. Not chasing headli
 ### 8. Featured Listings: The Strategic Middle Ground
 
 #### New Zealand: The Geopolitical Safe Haven, Locking in Yield Far from the Friction
+
+![industrial](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e91a4c13-748d-494f-9b5a-0fbe2a4646cd/industrial.png)
 
 #### Manukau City — Institutional-Scale Industrial (Logistics/Warehouse)
 
@@ -489,6 +507,8 @@ Investment Potential:
 
 - Exit options: long-term hold for income, or institutional/REIT-style buyer appetite due to scale
 
+![12](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/59c6002a-6286-440e-8830-9f16d7f07ddb/12.jpg)
+
 #### East Tamaki – High-Spec Logistics Facility
 
 Type: Modern logistics / distribution facility
@@ -510,6 +530,8 @@ Investment Potential:
 - Rental uplift potential in low-vacancy micro-markets
 
 - Exit options: institutional buyer or logistics-focused REIT mandate
+
+![img 3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/acac8b20-43ce-44a4-8af6-21876d7e1a4e/img_3.jpg)
 
 #### Auckland Fringe — Dual-Tower Office Complex (Core-Plus + Optionality)
 
@@ -537,6 +559,8 @@ Investment Potential:
 
 #### Malaysia: The Energy Pivot, Leveraging Supply Chain Shifts and Regional Stability
 
+![1658483371Banner5](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/f4bcab9c-e284-4dfc-9465-e0ee0adf9ae9/1658483371Banner5.jpg)
+
 #### Port Klang – Logistics and Distribution Facility
 
 Indicative Pricing: ~MYR 55.0m
@@ -562,6 +586,8 @@ Investment Potential:
 - Attractive roll-up candidate for logistics-focused REITs or institutional portfolios
 
 - Beneficiary of falling rate environment through yield re-rating rather than aggressive rental assumptions
+
+![1 (2)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/becc1beb-918f-44fa-bbb6-c1fc25741142/1+%282%29.jpg)
 
 #### Johor – Large-Scale Industrial Warehouse
 

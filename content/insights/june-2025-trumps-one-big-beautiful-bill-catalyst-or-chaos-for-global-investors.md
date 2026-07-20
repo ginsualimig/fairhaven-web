@@ -153,9 +153,13 @@ Amid elevated uncertainty across U.S., European, and Asian markets, New Zealand 
 
 The fiscal shifts out of the U.S. are creating strong FX positioning advantages for offshore investors looking into New Zealand. The NZD remains historically undervalued, holding in the 0.60 to 0.61 range throughout Q2 2025. With the U.S. dollar strengthening in response to stimulus-led yield spikes, currency differentials are widening, creating an asymmetric opportunity for foreign capital deployment into NZD assets.
 
+![Screenshot 2025-06-16 195720](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/cd057fba-fbee-460d-88e4-328f0337302a/Screenshot+2025-06-16+195720.jpg)
+
 The NZD remains below long-term averages, with room to appreciate if U.S. inflation cools and rate divergence narrows in 2026.
 
 Simultaneously, the RBNZ has entered an easing cycle. The latest 25bps cut in May has brought the Official Cash Rate down to 3.25 percent, with consensus projections from ANZ and Westpac suggesting a further cut to 3.00 percent by October or November.
+
+![WhatsApp Image 2025-06-16 at 20.08.12 3349514c](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/a464cb6d-99f1-439e-8049-d798b5381590/WhatsApp+Image+2025-06-16+at+20.08.12_3349514c.jpg)
 
 OCR has peaked and is projected to decline through late 2025 as inflation stabilises.
 
@@ -203,17 +207,23 @@ At Fairhaven, we believe the real opportunity lies in getting ahead of consensus
 
 Below are several institutional-quality New Zealand assets selected for their strong fundamentals, stable tenancies, and favourable entry pricing in current market conditions.
 
+![a](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/af406aa3-1f56-41b2-ae79-8812be837484/a.png)
+
 #### 1. Hamilton – Industrial and Commercial Hub
 
 Asking Price: NZD 14.0 million Land Size: ~3,000 m² (industrial-zoned site) Built-Up Area: ~1,534 m² Gross Rent: ~NZD 381,620 per annum Net Operating Income (NOI): ~NZD 300,000 Cap Rate: ~5.7% Occupancy: 95–100%
 
 Notes: Located in a key logistics corridor with limited supply. Strong lease cover and moderate upside.
 
+![b](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/5df01b10-d6ed-4c74-9762-a6946add8ad6/b.png)
+
 #### 2. Wellington – Operational Aged Care Facility
 
 Asking Price: NZD 18.6 million Land Size: ~9,400 m² Built-Up Area: ~4,800 m² Gross Rent: ~NZD 2.2 million per annum NOI (EBITDAR adjusted): ~NZD 1.5 million Cap Rate: ~8% Occupancy: 95%
 
 Notes: Demographic-driven demand, stable EBITDAR, and community-integrated care operator.
+
+![Screenshot 2025-06-12 095808](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/985189c4-75fa-42bd-9523-cd9d7ba907df/Screenshot+2025-06-12+095808.png)
 
 #### 3. Tauranga – Multi-Tenant Industrial Investment (warehouse/retail/workshop)
 

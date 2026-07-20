@@ -145,11 +145,15 @@ The Reserve Bank of New Zealand (RBNZ) has once again held the Official Cash Rat
 
 Beneath the surface, early indicators suggest momentum is building in certain segments of the economy. Mortgage approvals have risen for three consecutive months, and business confidence readings are at their highest level since early 2023. While the RBNZ is holding its line publicly, forward interest rate markets are now pricing in a 25bps cut as early as November , signalling growing conviction that the easing cycle will begin before year-end.
 
+![Official Cash Rate (OCR) Projection (2)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/79ba8c23-6b00-4e4d-8241-3c5907cadc9d/Official+Cash+Rate+%28OCR%29+Projection+%282%29.png)
+
 #### Currency Advantage for Offshore Capital
 
 The NZD has continued to trade in a narrow band between 0.59 and 0.60 USD , holding close to its weakest levels since 2022. This stability at a relatively low base is creating an attractive window for foreign investors, particularly those holding USD or SGD, to enter the market with built-in FX upside.
 
 Recent historical analysis shows that similar NZD trough periods have preceded currency appreciation phases of 6–12% within two years, particularly during monetary easing cycles. For cross-border investors in yield-driven sectors, this currency positioning remains one of the most compelling entry points in the past five years.
+
+![NZD USD (3)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e55bceda-1dbb-4445-a533-457ff10f5412/NZD_USD+%283%29.png)
 
 #### Real Estate Market Signals: A Quiet Shift Beneath the Headlines
 
@@ -195,6 +199,8 @@ As we’ve seen with the softening in policy tone and the shift in macro indicat
 
 Below are three listings we believe represent institutional-grade potential in the current cycle:
 
+![1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/36e7a1d1-0e39-4249-89b9-53365f1e094b/1.png)
+
 #### 1. Government-Backed Social Housing - Auckland
 
 Estimated Price: NZD 20+ million Asset Type: Social Housing | 18 fully leased residential units Net Yield: ~7.2% Estimated Net Income: ~NZD 1.3M–1.5M p.a. Tenure: Freehold Nearby Demand Drivers: Suburban transport + social infrastructure
@@ -218,6 +224,8 @@ Investment Potential:
 - Exit Strategy : Ideal for ESG roll-up or REIT acquisition
 
 - Key Advantage : Stable government-backed cash flow, high social impact alignment
+
+![22](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/af01f5cc-2cfd-453c-acf2-577c1ea08a84/22.png)
 
 #### 2. Serviced Apartment Asset - Auckland Fringe
 
@@ -244,6 +252,8 @@ Investment Potential:
 - Exit Strategy: Potential uplift via short-stay repositioning or REIT exit
 
 - Key Advantage: CPI-linked rental escalations, prime growth location
+
+![3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/b76619ab-2544-4140-a078-790761281e04/3.png)
 
 #### 3. Multi-Building Housing - South Auckland
 

@@ -36,6 +36,8 @@ This month’s edition covers:
 
 ### 1. Why Gold Is Back in the Spotlight
 
+![Untitled design](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/a643e0d7-95a8-437c-b6df-c75194337712/Untitled+design.png)
+
 #### A Fragile World Is Pushing Investors to Old Comforts
 
 In recent months, the global appetite for gold has surged. This is not just retail speculation or gold bug enthusiasm. Central banks, sovereign funds, and institutional allocators are steadily accumulating positions. The price of gold has climbed from under USD 2,000 in mid-2023 to over USD 3,300 by June 2025. This happened despite rising real yields and a relatively firm US dollar. Traditional macro theory would not predict that outcome.
@@ -140,11 +142,15 @@ As the gold dust settles, real assets will once again lead the charge. The quest
 
 New Zealand’s macro outlook remains stable and aligned with our projections from June. The Reserve Bank of New Zealand held the Official Cash Rate at 3.25 percent following its July meeting, confirming our base case for a controlled easing cycle toward 3.00 percent by year-end.
 
+![fdb05076-d526-4033-9367-cd5b4eb56548](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/24bdca75-8f44-4102-9cce-87d8a4d257e6/fdb05076-d526-4033-9367-cd5b4eb56548.png)
+
 Inflation remains anchored at 2.5 percent and GDP growth continues at a steady 2.0 percent YoY. The RBNZ's tone remains measured, emphasising data-dependence and stability in the face of rising global uncertainty. With U.S. bond markets pricing in renewed fiscal expansion and gold rallying to historic highs, New Zealand’s cautious stance reinforces its status as a yield harbour rather than a risk-on pivot.
 
 #### Currency Positioning Advantage
 
 Despite the domestic stability, the NZD remains subdued. NZD/USD trades between 0.60 and 0.61, holding near its lowest levels since 2022. This persistent weakness is a function of global USD strength rather than domestic softness.
+
+![2015 (1)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/9e5923da-03bf-4f9e-b444-296a634a893d/2015+%281%29.png)
 
 For USD- and SGD-based investors, this FX window remains highly attractive. Entry at current levels improves cap rate translation and enhances total return once repatriated. This advantage may narrow in 2026 as global rate divergence compresses.
 
@@ -170,6 +176,8 @@ We continue to see FX mispricing, favourable debt conditions, and a closing wind
 
 From Vaults to Value: Why Real Assets Still Win As capital seeks refuge in gold, we believe this shift is less about metal and more about mindset. Investors are looking for sovereignty, liquidity, and insulation from macro disorder. New Zealand real estate offers all of the above, with yield. And while bullion sits in vaults, quality property produces income, capital gain, and regulatory certainty. Below are three institutional-grade assets reflecting this opportunity.
 
+![July image 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/0b3816b4-e4a1-42f2-b777-ce2edf9fc98e/July_image_1.jpg)
+
 #### 1. Auckland - Boutique Hotel/Apartments
 
 Asking Price: NZD 24,750,000 Land Size: ~3,634 m² (freehold) Built-Up Area: ~3,725 m² Configuration: 62 fully furnished apartments + 64 car parks (individually titled) Current Use: Operating as boutique hotel Estimated Cap Rate : 7.0% – 8.0% Estimated NOI: ~NZD 1.715M – 1.96M Occupancy: 85%–90%
@@ -190,6 +198,8 @@ Estimated Returns:
 
 This is a rare opportunity to acquire a high-spec, cash-yielding residential block in one line, with flexible exit pathways, either via ongoing hotel operations, long-term tenancy, or strata resale.
 
+![July Artcile Img 3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/8f443842-f1b5-48e2-8b95-e4e2f672bee7/July_Artcile_Img_3.jpeg)
+
 #### 2. Christchurch - Institutional Logistics Facility
 
 Asking Price : NZD 21.5 million Land Size : ~20,000 m² Built-Up Area : ~10,200 m² Gross Rent : ~NZD 1.9 million p.a. Estimated Cap Rate : ~7.0% Occupancy : 100% leased to FMCG and distribution clients
@@ -209,6 +219,8 @@ Leveraged Projection (5-Year Hold): Assumes 60% LTV at 6.0% interest-only debt, 
 - Equity Multiple : ~2.05x
 
 This property offers a rare blend of yield, tenancy strength, and long-term logistics demand, well-aligned to capital rotation trends observed in the current macro environment.
+
+![img 3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/acac8b20-43ce-44a4-8af6-21876d7e1a4e/img_3.jpg)
 
 #### 3. Auckland Fringe - Dual-Tower Office Complex
 

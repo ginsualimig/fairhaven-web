@@ -48,9 +48,25 @@ def get_jsonld_article(soup):
             return data
     return None
 
+def image_alt_fallback(src):
+    """Derive a readable alt/caption from the filename when Squarespace left alt empty."""
+    from urllib.parse import unquote
+    name = unquote(src.rsplit("/", 1)[-1])
+    name = re.sub(r"\.(jpe?g|png|webp|gif)$", "", name, flags=re.I)
+    name = name.replace("+", " ").replace("_", " ").strip()
+    return name
+
 def html_block_to_md(el):
-    """Convert a bs4 element (heading/paragraph/list/etc) to a markdown-ish line."""
+    """Convert a bs4 element (heading/paragraph/list/image/etc) to a markdown-ish line."""
     name = el.name
+    if name == "img":
+        src = el.get("data-src") or el.get("src") or ""
+        if src.startswith("//"):
+            src = "https:" + src
+        if not src:
+            return None
+        alt = (el.get("alt") or "").strip() or image_alt_fallback(src)
+        return f"![{alt}]({src})"
     text = el.get_text(" ", strip=True)
     text = re.sub(r"\s+", " ", text).strip()
     if not text:
@@ -72,11 +88,13 @@ def html_block_to_md(el):
     return text
 
 def extract_body_markdown(content_div):
-    """Walk block-level children in document order and render markdown lines."""
+    """Walk block-level children (including inline content images) in document
+    order and render markdown lines, so charts/graphics stay positioned where
+    the author placed them relative to the surrounding paragraphs."""
     lines = []
     seen_text_nodes = set()
 
-    block_tags = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "blockquote"]
+    block_tags = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "blockquote", "img"]
 
     for el in content_div.find_all(block_tags):
         if el.find_parent(["script", "style"]):

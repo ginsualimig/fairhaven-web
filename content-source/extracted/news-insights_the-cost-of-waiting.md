@@ -98,6 +98,8 @@ While this signals that the most restrictive phase of policy has passed, conditi
 
 Inflation has moderated from previous highs but remains elevated at approximately 3.1%, still above the central bank’s target range.
 
+![1nz](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/7a044980-cb51-4070-bc60-208a689ffe29/1nz.png)
+
 The chart shows a clear compression between inflation and the OCR. Earlier in the cycle, inflation significantly outpaced interest rates, forcing aggressive tightening. Today, that gap has narrowed, but not fully closed.
 
 This is important because it signals that policy is no longer tightening, but also not ready to ease. Real rates remain only marginally restrictive, which explains the current holding pattern across markets.
@@ -107,6 +109,8 @@ For investors, this creates a transitional phase where financing conditions are 
 #### Currency Stability and Industrial Demand
 
 The NZD/USD exchange rate has remained relatively stable, trading within the 0.60 range in recent periods.
+
+![2nz](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/bc0d9e29-8d7d-4a55-b9a3-67f3121350c0/2nz.png)
 
 The long-term chart shows that the currency is neither at a cyclical high nor under significant pressure. This stability is critical for export-oriented sectors, particularly agriculture, manufacturing, and logistics.
 
@@ -119,6 +123,8 @@ This reinforces a key divergence in the market. While broader sentiment remains 
 Construction activity has slowed materially from its peak, with total dwelling consents declining from over 48,000 annually in 2022 to the mid-30,000 range in 2024 and 2025.
 
 However, more recent data shows a modest uptick into 2026.
+
+![3nz](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/b5eda4db-8d04-49e2-827c-07c35e3f5ccf/3nz.png)
 
 At first glance, the increase in 2026 consent numbers may suggest a recovery in supply. In reality, it reflects a normalisation from suppressed levels rather than a return to oversupply.
 
@@ -148,6 +154,8 @@ Following approximately 6.3% GDP growth in late 2025, projections for 2026 remai
 
 Bank Negara Malaysia has maintained the Overnight Policy Rate at 2.75%, with no clear signal of imminent easing.
 
+![1my](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/79f1ed0d-fe64-4e8c-a92c-1c1eb7aa7408/1my.png)
+
 The chart reflects a flattening of the rate cycle, indicating that the tightening phase has concluded. Unlike more volatile markets, Malaysia’s policy environment has transitioned into a period of stability.
 
 This stability reduces uncertainty around financing costs, allowing investors to underwrite assets with greater confidence. However, it has also contributed to a wait-and-see mindset, as some investors continue to anticipate future rate cuts before deploying capital.
@@ -158,6 +166,8 @@ The result is a market where conditions are supportive, but capital is not yet f
 
 The Malaysian Ringgit has shown signs of stabilisation after a prolonged period of weakness against the U.S. dollar.
 
+![3my](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/cf4397a1-a2b9-4133-b2c6-e5f7687e8290/3my.png)
+
 The long-term trend suggests that the currency has moved out of its most volatile phase and is now trading within a more stable range.
 
 For cross-border investors, this reduces a key layer of risk. When currency volatility declines, investment decisions shift away from defensive positioning toward asset-level performance.
@@ -167,6 +177,8 @@ This is particularly relevant in Malaysia, where stable currency conditions are 
 #### Inflation and Real Yield Advantage
 
 Malaysia’s inflation remains contained at approximately 1.6% to 1.8%, significantly lower than most developed markets.
+
+![2my](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/7acbf14f-b5d1-421a-b37b-4a3a4d4e8238/2my.png)
 
 The chart highlights a stable and low inflation environment, which has important implications for real estate investors.
 
@@ -208,6 +220,8 @@ The following opportunities reflect this positioning. Each asset sits within a s
 
 ### New Zealand
 
+![student accm nz](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/058612fc-3b3c-4bd2-9188-136c06b6c503/student+accm+nz.jpg)
+
 #### Tauranga - Multi-Unit Residential
 
 Property Type: Residential Apartment Complex Estimated Value: ~NZD 40 million Estimated Yield: ~6% Land Area: ~2,600 sqm Floor Area: ~4,500 sqm Units: 55 apartments
@@ -217,6 +231,8 @@ Notes: A recently constructed multi-level apartment complex located within Taura
 Investment Potential:
 
 With new housing supply moderating and development pipelines still below prior peaks, existing residential assets in high-demand locations are positioned to benefit from tightening supply conditions. Proximity to key amenities and tertiary institutions supports ongoing rental demand, while the scale of the asset allows for both stable income and potential future flexibility through staged divestment.
+
+![helth 2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/0c83a1e0-91eb-41d6-b333-25838fd03916/helth+2.jpg)
 
 #### Auckland - Healthcare Commercial Asset
 
@@ -233,6 +249,8 @@ Floor Area: 3,149 sqm
 Notes : A purpose-built healthcare facility positioned within one of Auckland’s rapidly expanding suburban corridors. The asset hosts a wide range of medical services serving the surrounding residential population and benefits from strong building quality and extensive onsite parking.
 
 Investment Potential: Healthcare assets benefit from non-discretionary demand, providing resilience across economic cycles. In the current environment, assets with stable tenant profiles and long-term service demand are likely to reprice ahead of broader commercial segments. The scale and configuration of the site also provide optionality for future repositioning into complementary uses such as specialist care, childcare, or community-based services. These alternative uses could further enhance rental income potential over time.
+
+![3 nz](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/6289c06c-319c-4234-997e-4db6a1ed8f27/3+nz.webp)
 
 #### Waikato - Regional Commercial Asset
 
@@ -252,6 +270,8 @@ Investment Potential: Regional commercial assets continue to offer yield premium
 
 ### Malaysia
 
+![my 3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/57af9aa2-3345-4b18-880c-b9bdcacd9dff/my+3.jpg)
+
 #### Subang Jaya - Corporate Office Tower
 
 Property Type: Grade A Corporate Office Tower
@@ -269,6 +289,8 @@ Notes: A boutique Grade A office asset within an established commercial hub, off
 Investment Potential: Office developments along the Subang fringe have historically maintained resilient demand due to their strategic location between Kuala Lumpur’s CBD and the major industrial hubs of Shah Alam and Klang. As corporations continue to decentralise operations away from the congested city centre, well-connected suburban Grade A offices have become increasingly attractive.
 
 The tower’s MSC Malaysia Cybercentre designation further expands the tenant pool by attracting technology firms and multinational companies seeking digital infrastructure and regulatory incentives. Combined with limited new Grade A supply in the immediate corridor, the asset offers potential for stable tenancy and long-term capital appreciation.
+
+![my 2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/2a010be2-3d3d-47fe-8826-138cce91ed80/my+2.jpg)
 
 #### Iskandar Puteri - Industrial Manufacturing Facility
 
@@ -291,6 +313,8 @@ Notes: A large-scale detached industrial facility located within the Southern In
 Investment Potential:
 
 Industrial assets within Johor continue to benefit from structural demand linked to cross-border trade and manufacturing expansion. With significant investment inflows into the region and limited availability of large-format facilities, assets of this scale are well-positioned to capture sustained tenant demand. In the current cycle, industrial segments are already showing early signs of repricing ahead of broader market recovery.
+
+![my jb 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/9a0af78b-c99a-4a04-a327-a28f994d1c40/my+jb+1.jpg)
 
 #### Johor Bahru - Commercial Shop Offices
 

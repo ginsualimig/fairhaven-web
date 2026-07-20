@@ -16,11 +16,15 @@ For instance, the vacancy rate for prime office spaces in Auckland dropped to 1.
 
 This trend toward decentralization and flexibility in office spaces is also reflected in property prices across various regions. Despite the current high-interest rate environment, we are witnessing price growth in areas like Otago, the West Coast, and Taranaki. These regions are experiencing a steady increase in property values, underscoring the resilience of these markets as businesses and investors continue to see value in expanding beyond traditional urban centers.
 
+![nz price change chart updated](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/cdc0831c-ff45-4a5c-a5b0-0d52ee6b6ff9/nz_price_change_chart_updated.png)
+
 ### The Rise of Affordable, Flexible Office Spaces
 
 While prime urban office spaces continue to attract interest, businesses are increasingly seeking more affordable, flexible office solutions that better align with their evolving needs. The pandemic has accelerated a shift toward decentralized office spaces, where companies are moving to locations that offer better value without compromising on functionality. This shift is particularly evident in regional hubs and secondary cities, where businesses are finding opportunities for growth in modern, well-designed office environments.
 
 In Hamilton, for example, the local government has been proactive in creating a supportive business environment, which has fueled interest from companies looking for flexible, high-quality office spaces. Queenstown, known for its scenic beauty and quality of life, is also seeing a resurgence in demand as businesses recognize the benefits of locating in attractive environments that appeal to both employees and clients. Similarly, Dunedin's burgeoning tech sector is driving demand for innovative office designs that cater to the needs of a dynamic, hybrid workforce. These two cities also led the Otago region in volume of transactions.
+
+![istockphoto-469299490-2048x2048](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/90c71e30-c31a-4cbd-b126-59e2e238b2fd/istockphoto-469299490-2048x2048.jpg)
 
 ### Strategic Opportunities in Emerging Markets
 

@@ -85,11 +85,17 @@ Whether your interpretation of this buildout is optimistic, that AI productivity
 
 New Zealand is navigating a period of genuine difficulty, and we think it is more useful to address that directly than to frame it otherwise.
 
+![Screenshot 2026-05-18 185312](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/d5f9a8b7-4793-4129-bdcb-aaca567b850d/Screenshot+2026-05-18+185312.png)
+
 National property values fell 1.0% over 2025, with the median now sitting approximately 17.6% below the November 2021 peak. Wellington is down 25.9% from its peak. Auckland is down 21.8%. Nearly 20% of Auckland sellers who transacted in Q1 2026 did so at a loss, rising to over 40% for apartment vendors. Net migration to the year ending November 2025 came in at 10,681, down 92% from 2023 levels, removing one of the primary structural demand drivers for residential property. The Middle East conflict has added a further layer of headwinds: Westpac revised its 2026 New Zealand GDP forecast down to 1.9% in March, projecting a quarterly GDP contraction in the June quarter. ANZ economists are forecasting a 2% decline in house prices for the full year. The RBNZ's path toward further OCR easing has stalled as wholesale swap rates have risen in response to oil-driven inflation expectations.
+
+![Screenshot 2026-05-18 185306](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/a72d9e62-ce8e-43d8-aeee-60add7ca4b71/Screenshot+2026-05-18+185306.png)
 
 The honest read is that the macro backdrop in New Zealand is not positioned to generate the kind of capital appreciation story that attracted investors over the previous decade. The structural drivers that supported that story, population growth, cheap credit, supply constraints, have either reversed or weakened. The market that remains is an income market, where returns come from yield rather than revaluation.
 
 Within that framework, there are genuine pockets of opportunity. Industrial assets in South Auckland and Christchurch where vacancy rates remain below 3% continue to perform on fundamentals independent of sentiment. Healthcare and essential services facilities with long lease structures and non-discretionary tenant demand are showing resilience across the cycle. Regional commercial assets at yields above 8% in markets with constrained new supply represent defensible income positions. The framework for New Zealand in the second half of 2026 is income first, selectivity as the primary risk tool, and a realistic time horizon for capital appreciation that extends further than it did three years ago.
+
+![1my](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/79f1ed0d-fe64-4e8c-a92c-1c1eb7aa7408/1my.png)
 
 Malaysia operates from a different position. GDP growth projections of 4 to 5% for 2026, inflation contained at approximately 1.6%, a stable OPR at 2.75%, and the structural demand tailwinds described in this edition, data centres, manufacturing relocation, the Johor-Singapore SEZ, all point to a market where fundamentals are generating demand without needing sentiment to cooperate. Malaysia ranked 23rd globally in the Milken Institute's 2026 Global Opportunity Index, first in Southeast Asia, with high scores in financial services and institutional strength. CBRE forecasts a 5 to 10% year-on-year increase in Asia Pacific commercial real estate investment volumes in 2026, following a 22% rebound in 2025.
 
@@ -102,6 +108,8 @@ The divergence between these two markets is not a temporary cycle difference. It
 While many investors remain on the sidelines awaiting clearer signals, underlying fundamentals across selected segments have already begun to stabilise. In this phase of the cycle, opportunities are less about broad market timing and more about identifying assets where income, demand, and supply dynamics are already aligned.
 
 ### New Zealand
+
+![nz 1 may](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/42a90083-4f39-473c-96a0-89b28fd6d261/nz+1+may.jpg)
 
 #### Auckland — Fully Leased Mixed-Use Retail Investment
 
@@ -118,6 +126,8 @@ Tenancy: 2 tenancies, 100% occupied
 Notes: A fully leased ground-floor retail and showroom asset within a recently completed, award-winning mixed-use development in the Auckland city fringe. The property occupies a prominent corner position within a high-density residential precinct, anchored by an established all-day hospitality operator on a 6-year lease with fixed annual rental increases and multiple renewal rights. A secondary tenancy adds diversified income across showroom and professional office use. The building is finished to a high standard with over four metres of stud height and significant natural light frontage.
 
 Investment Potential: The Auckland city fringe mixed-use corridor is one of the most structurally resilient segments of the NZ commercial market, supported by high residential density, consistent pedestrian demand, and the non-discretionary nature of neighbourhood hospitality and professional services. In a market where broad commercial sentiment remains cautious, a fully leased asset anchored by an established operator with a long lease and fixed escalations provides exactly the income visibility that the current cycle rewards. The property is not dependent on market recovery to perform. It is generating income today, at a yield level that reflects current pricing without requiring a rate cut to justify entry.
+
+![21d7fedb-9e80-4441-a483-cb81a1af3932](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/4e346132-7a12-41e9-90be-dea84075ade5/21d7fedb-9e80-4441-a483-cb81a1af3932.jpg)
 
 #### Auckland (South) — Cold Storage and Logistics Facility
 
@@ -139,6 +149,8 @@ Investment Potential: Cold storage infrastructure in New Zealand is among the mo
 
 ### Malaysia
 
+![8373fd dc04f1513018455181122d7ef1cd678c~mv2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/0cf3e472-cf9b-4195-b030-14c143937b99/8373fd_dc04f1513018455181122d7ef1cd678c%7Emv2.jpg)
+
 #### Shah Alam, Selangor — Data Centre Ready Industrial Facility
 
 Property Type: Detached Industrial / High Power Infrastructure
@@ -158,6 +170,8 @@ Notes: A recently upgraded industrial facility in Shah Alam's Section 26 industr
 Investment Potential:
 
 Investment Potential: Shah Alam is emerging as the overflow corridor for Klang Valley's data centre demand, as Cyberjaya and Subang have limited remaining land at viable costs. The 2,000 amp power supply on title, rare in the sub-RM 50M industrial segment, makes this asset immediately attractive to a tenant pool that would otherwise require 18-plus months of infrastructure lead time. This ties directly to the article's infrastructure thesis: owning high-power industrial stock before hyperscale operators exhaust the primary corridors means entering ahead of the repricing.
+
+![my 2 may](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/6e9a4db6-344b-4128-a0b3-cea00e6ffa4f/my+2+may.jpg)
 
 #### Johor Bahru (Kulai) — Logistics Hub, Freehold Industrial
 

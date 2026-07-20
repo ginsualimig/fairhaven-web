@@ -150,6 +150,8 @@ When leverage unwinds, even traditional safe havens can be sold temporarily to m
 
 It is important to separate mechanical selling from structural demand.
 
+![Graphs](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/3829485c-af75-488f-9871-706b5f989222/Graphs.png)
+
 The monthly average trend illustrates the broader trajectory. The path is volatile, but the direction reflects sustained allocation rather than episodic panic.
 
 #### Gold as a Behavioural Indicator
@@ -165,6 +167,8 @@ It also highlights a broader theme. When the foundations of a debt based system 
 This does not automatically mean that all financial assets are mispriced. It does signal that confidence is no longer unconditional.
 
 ### 3. Bitcoin, Synthetic Liquidity, and the Illusion of Scarcity
+
+![btc 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/f5e77260-d139-4a84-b6d1-3667c15ae210/btc+1.png)
 
 If gold is signalling institutional caution, Bitcoin is signalling something else entirely.
 
@@ -360,6 +364,8 @@ New Zealand is no longer fighting inflation. It is managing the after-effects of
 
 The Official Cash Rate now sits at 2.25 percent as of early 2026. Inflation has moderated toward the low 2 to 3 percent range. Monetary policy has clearly shifted from restrictive to neutral-to-supportive.
 
+![Untitled design (13)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e82ab047-bbce-4f56-aef3-82b6b8f0f3e8/Untitled+design+%2813%29.png)
+
 This matters because real assets typically reprice not when rates are cut aggressively, but when policy credibility is restored and borrowing costs fall faster than income.
 
 The tightening cycle has already passed through property valuations. What remains is a supply environment that is materially more disciplined than during the 2021–2022 construction peak.
@@ -370,11 +376,15 @@ Historically, New Zealand property cycles bottom when supply contracts rather th
 
 Transaction activity is also rebuilding gradually rather than explosively.
 
+![Transaction Volume (3)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/95fe55cd-78f2-4c35-bd6f-b161e35c0009/Transaction+Volume+%283%29.png)
+
 Volumes through 2025 and into early 2026 show recovery from trough levels without speculative acceleration. This is characteristic of early-cycle stabilisation, not late-cycle exuberance.
 
 On the policy front, housing remains central to New Zealand’s economic management framework. Migration inflows have normalised from peak surges, construction activity has cooled, and lending standards remain measured. There has been no abrupt deregulation that would reintroduce overheating risk.
 
 Currency positioning adds further asymmetry.
+
+![Graphs (1)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/e6f6407c-3f0d-4e7f-8f9f-75b361f0add8/Graphs+%281%29.png)
 
 The New Zealand dollar, although recently strengthening against the USD to the 0.60 region, remains below its long-term average. For offshore investors funding in stronger currencies, entry pricing remains favourable. Income is earned locally while currency normalisation, if it occurs, becomes incremental upside rather than a required component of return.
 
@@ -386,9 +396,15 @@ Malaysia is positioned differently but equally relevant in this cycle.
 
 Bank Negara’s Overnight Policy Rate stands at 2.75 percent, after the 2025 adjustment phase. Inflation has moderated into the low-to-mid 1 percent range, creating a positive real yield environment without requiring restrictive conditions.
 
+![Untitled design (20)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/8c75ff6b-7d05-400f-bb69-5989264bde46/Untitled+design+%2820%29.png)
+
+![Untitled design (14)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/dfa11401-6b93-47ea-989a-7797fa16e859/Untitled+design+%2814%29.png)
+
 Policy stability is critical in emerging markets. What differentiates Malaysia currently is not just rate stability, but currency performance.
 
 As of February 2026, USD/MYR has continued trending lower toward the 3.9 region, reflecting a strengthening ringgit relative to prior years.
+
+![Untitled design (19)](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/97bd7e1f-488f-4e95-abf2-3a5b053630ed/Untitled+design+%2819%29.png)
 
 The ringgit is now trading near or above its longer-term average line. This shifts Malaysia’s positioning meaningfully. Currency risk, which historically required compensation, is increasingly becoming neutral or even supportive for foreign investors.
 
@@ -413,6 +429,8 @@ And in transitional cycles, allocation trades tend to outperform narrative trade
 ### 8. Featured Listings: The Strategic Middle Ground
 
 #### New Zealand: The Geopolitical Safe Haven, Locking in Yield Far from the Friction
+
+![aged care 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/caded24c-1433-47f0-a043-063b5f70e44a/aged+care+1.webp)
 
 #### Canterbury - Integrated Retirement Village & Care Facility
 
@@ -440,6 +458,8 @@ Investment Potential:
 
 - Suitable for hold-and-optimise strategy or institutional healthcare exit
 
+![12](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/59c6002a-6286-440e-8830-9f16d7f07ddb/12.jpg)
+
 #### East Tamaki - High-Spec Logistics Facility
 
 Type: Modern logistics / distribution facility
@@ -461,6 +481,8 @@ Investment Potential:
 - Rental uplift potential in low-vacancy micro-markets
 
 - Exit options: institutional buyer or logistics-focused REIT mandate
+
+![img 3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/acac8b20-43ce-44a4-8af6-21876d7e1a4e/img_3.jpg)
 
 #### Auckland Fringe - Dual-Tower Office Complex (Core-Plus + Optionality)
 
@@ -488,6 +510,8 @@ Investment Potential:
 
 #### Malaysia: The Energy Pivot, Leveraging Supply Chain Shifts and Regional Stability
 
+![my 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1b1ba1a3-daaa-42e6-950c-ff5b2af5f2a2/my+1.jpg)
+
 #### Klang Valley – Corporate Tower (En-Bloc Opportunity)
 
 Indicative Pricing: ~ MYR 110.5m – 228.0m
@@ -509,6 +533,8 @@ Investment Potential:
 - Yield Stability: The MSC status allows for a wider pool of international tenants, ensuring a defensive income stream even in volatile markets.
 
 - Accessibility: Unrivaled logistics connectivity via the Federal Highway, LDP, and NKVE, making it a preferred choice for companies moving away from the congested KL CBD.
+
+![DJI 0017-1170x613](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/d9c0224e-2c7c-462b-b148-fbf180456386/DJI_0017-1170x613.jpg)
 
 #### Johor – Large-Scale Industrial Warehouse
 

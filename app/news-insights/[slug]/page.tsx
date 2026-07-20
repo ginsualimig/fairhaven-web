@@ -93,7 +93,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           <article className="max-w-3xl mx-auto">
             <MarkdownContent
               content={post.content}
-              className="prose-p:leading-relaxed prose-p:mb-6 prose-headings:mt-10 prose-headings:mb-4"
+              className="prose-p:leading-relaxed prose-p:mb-6 prose-headings:mt-10 prose-headings:mb-4 prose-img:rounded-lg prose-img:border prose-img:border-stone/15 prose-img:my-8"
             />
           </article>
 

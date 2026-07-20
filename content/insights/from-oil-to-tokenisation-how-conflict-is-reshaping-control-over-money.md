@@ -47,6 +47,8 @@ Recent developments suggest the world may be entering another period of systemic
 
 Recent volatility in global oil markets illustrates how quickly geopolitical events can influence the broader economic landscape. Following escalating tensions in the Middle East, crude oil prices surged sharply, with Brent crude briefly moving above $100 per barrel as markets reacted to potential disruptions in supply and regional instability.
 
+![1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/256c93a4-87f1-415a-a97f-bf5888413922/1)
+
 Sharp movements in energy prices often serve as an early signal of wider economic and financial implications. Because oil remains one of the most globally traded commodities, fluctuations in its price can influence inflation expectations, trade balances, and capital flows across multiple economies.
 
 At the same time, the increasing use of financial sanctions and restrictions on international payment networks has highlighted the degree to which modern finance is intertwined with geopolitical influence. Access to the global banking system, reserve currencies, and payment infrastructure has become an increasingly important strategic consideration for many nations. As a result, governments and financial institutions alike have begun exploring alternative mechanisms for settling trade, moving capital, and maintaining financial sovereignty.
@@ -97,6 +99,8 @@ Despite increasing geopolitical tensions and discussions around alternative fina
 
 However, recent years have also seen a gradual diversification of reserve holdings. Other currencies such as the euro, Chinese yuan, and Japanese yen have slowly increased their presence within global reserve portfolios, reflecting the evolving dynamics of global trade and financial relationships.
 
+![2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/b8302abb-f265-4c59-bdd5-b8b0d06b209a/2.png)
+
 The chart above illustrates how the composition of global reserves has evolved over time. While the U.S. dollar remains the dominant reserve currency, its share has gradually declined from earlier peaks as central banks diversify their holdings across a broader range of currencies.
 
 #### Growing Interest in Alternative Settlement Systems
@@ -108,6 +112,8 @@ These initiatives do not necessarily signal an immediate departure from the doll
 As geopolitical tensions persist and the global economic landscape becomes more multipolar, the search for alternative financial infrastructure is likely to continue. At the same time, technological developments are beginning to offer new possibilities for how financial assets and transactions can be structured in the future.
 
 ### 4. Tokenisation and the Emergence of New Financial Infrastructure
+
+![Screenshot 2026-03-10 155201](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/f933b6e3-bbb7-4481-8331-855a1ff9723d/Screenshot+2026-03-10+155201.png)
 
 #### What Tokenisation Means
 
@@ -249,6 +255,8 @@ Following the aggressive tightening cycle that pushed the Official Cash Rate to 
 
 As price pressures eased, the RBNZ began lowering rates through 2024 and 2025, bringing the OCR down to 2.25 percent by late 2025 , where it currently remains.
 
+![OCR vs CPI nz march26](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/fe374c19-9fdc-4a21-887a-ff1245df6e92/OCR+vs+CPI+nz+march26.png)
+
 The chart above illustrates how monetary policy moved from restrictive to neutral conditions as inflation fell. CPI has declined sharply from post-pandemic highs, allowing the central bank to reduce borrowing costs without risking a resurgence of inflation.
 
 For property markets, the importance of this shift is not the rate cuts themselves but the end of policy uncertainty . Property cycles rarely stabilise while interest rates are still rising. Stability tends to emerge once borrowing conditions become predictable again.
@@ -261,6 +269,8 @@ Currency dynamics also play an important role in international investment decisi
 
 The New Zealand dollar remains below its long-term average against the U.S. dollar, even after modest strengthening over the past year.
 
+![FX nzd march 26](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/92e4272a-d090-4570-a830-8b66a55e65e1/FX+nzd+march+26.png)
+
 The chart highlights how the currency has traded below its historical average for much of the past several years. For offshore investors funding in stronger currencies, this creates a favourable entry point where income is generated in local terms while potential currency normalisation becomes an additional upside rather than a requirement for return.
 
 In other words, the currency environment does not need to strengthen dramatically to support investment returns, but if it does, it provides an additional tailwind.
@@ -270,6 +280,8 @@ In other words, the currency environment does not need to strengthen dramaticall
 Perhaps the most important structural factor emerging in the New Zealand housing market is the sharp decline in new construction activity.
 
 Following the development boom earlier in the decade, higher financing costs and tighter credit conditions significantly reduced new housing consents across most dwelling categories.
+
+![New homes consented march26](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/38f2f6c2-2cec-4f8a-9c3e-4596cb955de4/New+homes+consented+march26.png)
 
 Total new dwelling consents have fallen substantially from the peaks seen in 2021 and 2022. While some recovery occurred during 2025, overall development activity remains materially below prior highs.
 
@@ -301,6 +313,8 @@ One of the most notable macro developments in Malaysia over the past two years h
 
 After peaking during the global inflation surge in 2022–2023, consumer price pressures have steadily moderated. Current projections suggest inflation will remain within the low-to-mid 1–2 percent range through 2026 , reflecting relatively stable domestic demand and controlled cost pressures.
 
+![cpi 26](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/35a61356-2dce-4a91-8676-3781d6b88aa0/cpi+26.png)
+
 A moderate inflation environment is particularly important for real asset markets. When inflation is stable rather than volatile, both borrowing costs and rental pricing dynamics become more predictable. For property investors, this reduces macro uncertainty and allows income streams to be assessed with greater clarity.
 
 #### Monetary Policy Remains Supportive
@@ -308,6 +322,8 @@ A moderate inflation environment is particularly important for real asset market
 Malaysia’s monetary policy stance has also shifted toward stability.
 
 Following earlier tightening cycles, Bank Negara Malaysia reduced the Overnight Policy Rate from 3.0 percent to 2.75 percent in 2025, signalling that inflation risks had largely been contained while maintaining positive real yields within the financial system.
+
+![opr 26](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/50fd04c4-8bdb-4bab-a8f0-26b3c7480ba8/opr+26.png)
 
 Unlike more aggressive monetary cycles seen in some developed markets, Malaysia’s rate path has been relatively measured. This moderation has helped support domestic credit conditions while avoiding the sharp disruptions to property financing experienced in some other jurisdictions.
 
@@ -318,6 +334,8 @@ For investors, this policy stability matters. Emerging market risk is often less
 Currency positioning is another important factor shaping investor behaviour.
 
 Over the past decade, the Malaysian ringgit experienced periods of weakness driven by global capital flows and commodity market cycles. However, more recently the currency has strengthened relative to prior lows.
+
+![fx myr 26](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/a513933e-0845-4e19-bf37-fc6ddca1fb69/fx+myr+26.png)
 
 The chart illustrates how the ringgit has moved above its longer-term average against the U.S. dollar after several years of undervaluation.
 
@@ -335,6 +353,8 @@ Following the development boom earlier in the decade, higher financing costs and
 
 ### New Zealand
 
+![student accm nz](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/058612fc-3b3c-4bd2-9188-136c06b6c503/student+accm+nz.jpg)
+
 #### Tauranga - Multi-Unit Residential
 
 Property Type: Residential Apartment Complex Estimated Value: ~NZD 40 million Estimated Yield: ~6% Land Area: ~2,600 sqm Floor Area: ~4,500 sqm Units: 55 apartments
@@ -344,6 +364,8 @@ Notes: A recently constructed multi-level apartment complex located within Taura
 Investment Potential:
 
 Tauranga remains one of New Zealand’s fastest-growing regional centres, supported by strong domestic migration and ongoing infrastructure development. The property’s proximity to the city centre and tertiary education facilities also creates sustained demand from professionals and postgraduate students. The combination of diversified rental income and potential future unit sell-down provides multiple avenues for long-term value creation.
+
+![helth 2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/0c83a1e0-91eb-41d6-b333-25838fd03916/helth+2.jpg)
 
 #### Auckland - Healthcare Commercial Asset
 
@@ -360,6 +382,8 @@ Floor Area: 3,149 sqm
 Notes : A purpose-built healthcare facility positioned within one of Auckland’s rapidly expanding suburban corridors. The asset hosts a wide range of medical services serving the surrounding residential population and benefits from strong building quality and extensive onsite parking.
 
 Investment Potential: Healthcare assets benefit from resilient tenant demand due to the essential nature of medical services. The property’s large site and flexible floor configuration may also allow future repositioning into complementary healthcare uses such as specialist clinics, childcare services, or community health facilities, subject to planning approvals and tenant strategy. These alternative uses could further enhance rental income potential over time.
+
+![3 nz](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/6289c06c-319c-4234-997e-4db6a1ed8f27/3+nz.webp)
 
 #### Waikato - Regional Commercial Asset
 
@@ -378,6 +402,8 @@ Notes: A commercial property located within the South Waikato economic corridor 
 Investment Potential: Regional commercial markets often deliver higher income yields than metropolitan centres due to lower entry pricing and strong demand from local industries. Economic activity across the central North Island continues to be supported by forestry, logistics, and manufacturing sectors, providing stable operational demand for commercial premises in the region.
 
 ### Malaysia
+
+![my 3](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/57af9aa2-3345-4b18-880c-b9bdcacd9dff/my+3.jpg)
 
 #### Subang Jaya - Corporate Office Tower
 
@@ -398,6 +424,8 @@ The property benefits from strong regional connectivity via major highways inclu
 Investment Potential: Office developments along the Subang fringe have historically maintained resilient demand due to their strategic location between Kuala Lumpur’s CBD and the major industrial hubs of Shah Alam and Klang. As corporations continue to decentralise operations away from the congested city centre, well-connected suburban Grade A offices have become increasingly attractive.
 
 The tower’s MSC Malaysia Cybercentre designation further expands the tenant pool by attracting technology firms and multinational companies seeking digital infrastructure and regulatory incentives. Combined with limited new Grade A supply in the immediate corridor, the asset offers potential for stable tenancy and long-term capital appreciation.
+
+![my 2](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/2a010be2-3d3d-47fe-8826-138cce91ed80/my+2.jpg)
 
 #### Iskandar Puteri - Industrial Manufacturing Facility
 
@@ -422,6 +450,8 @@ Investment Potential:
 Iskandar Puteri has emerged as one of Malaysia’s most important industrial investment corridors due to its proximity to Singapore and its role within the Johor–Singapore economic corridor. Industrial assets in the region benefit from strong demand from export-oriented manufacturing, logistics operators, and regional supply chains.
 
 Facilities offering large floor plates, high power capacity, and modern industrial specifications are particularly attractive to manufacturing tenants seeking operational efficiency. As cross-border trade and industrial activity continue to expand across Johor, strategically located industrial properties are well positioned to benefit from sustained tenant demand and rental growth.
+
+![my jb 1](https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/9a0af78b-c99a-4a04-a327-a28f994d1c40/my+jb+1.jpg)
 
 #### Johor Bahru - Commercial Shop Offices
 

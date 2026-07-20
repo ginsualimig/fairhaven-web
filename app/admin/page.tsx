@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { marked } from "marked";
 import { slugify } from "@/lib/slugify";
@@ -26,6 +26,11 @@ export default function AdminPublishPage() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<{ slug: string; url: string } | null>(null);
+
+  const bodyRef = useRef<HTMLTextAreaElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState("");
 
   const effectiveSlug = slugTouched ? slug : slugify(title);
   const previewHtml = useMemo(() => (body ? marked.parse(body, { async: false }) : ""), [body]);
@@ -66,6 +71,60 @@ export default function AdminPublishPage() {
       setError("Could not reach the server. Check your connection and try again.");
     } finally {
       setSubmitting(false);
+    }
+  }
+
+  function insertAtCursor(snippet: string) {
+    const el = bodyRef.current;
+    if (!el) {
+      setBody((b) => `${b}${b && !b.endsWith("\n") ? "\n\n" : ""}${snippet}`);
+      return;
+    }
+    const start = el.selectionStart ?? el.value.length;
+    const end = el.selectionEnd ?? el.value.length;
+    const before = el.value.slice(0, start);
+    const after = el.value.slice(end);
+    const needsLeadingBreak = before.length > 0 && !before.endsWith("\n\n") && !before.endsWith("\n");
+    const insertion = `${needsLeadingBreak ? "\n\n" : ""}${snippet}\n\n`;
+    const next = `${before}${insertion}${after}`;
+    setBody(next);
+    requestAnimationFrame(() => {
+      el.focus();
+      const cursor = before.length + insertion.length;
+      el.setSelectionRange(cursor, cursor);
+    });
+  }
+
+  async function handleImageSelected(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // allow re-selecting the same file later
+    if (!file) return;
+
+    setUploadError("");
+    setUploading(true);
+    try {
+      const dataUrl: string = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result as string);
+        reader.onerror = () => reject(new Error("Could not read the file."));
+        reader.readAsDataURL(file);
+      });
+
+      const res = await fetch("/api/admin/upload-image", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename: file.name, dataUrl }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setUploadError(data.error || "Could not upload this image.");
+        return;
+      }
+      insertAtCursor(`![Add a caption here](${data.path})`);
+    } catch {
+      setUploadError("Could not upload this image. Check your connection and try again.");
+    } finally {
+      setUploading(false);
     }
   }
 
@@ -205,25 +264,44 @@ export default function AdminPublishPage() {
             </div>
 
             <div>
-              <div className="flex items-center justify-between mb-1.5">
+              <div className="flex items-center justify-between mb-1.5 flex-wrap gap-2">
                 <label className="block text-sm font-medium text-navy" htmlFor="body">
                   Post body
                 </label>
-                <button
-                  type="button"
-                  onClick={() => setShowPreview((v) => !v)}
-                  className="lg:hidden text-xs font-semibold text-teal hover:text-teal/80"
-                >
-                  {showPreview ? "Hide preview" : "Show preview"}
-                </button>
+                <div className="flex items-center gap-4">
+                  <button
+                    type="button"
+                    onClick={() => fileInputRef.current?.click()}
+                    disabled={uploading}
+                    className="text-xs font-semibold text-teal hover:text-teal/80 disabled:opacity-50"
+                  >
+                    {uploading ? "Uploading…" : "+ Insert image"}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setShowPreview((v) => !v)}
+                    className="lg:hidden text-xs font-semibold text-teal hover:text-teal/80"
+                  >
+                    {showPreview ? "Hide preview" : "Show preview"}
+                  </button>
+                </div>
               </div>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/png,image/jpeg,image/webp,image/gif"
+                onChange={handleImageSelected}
+                className="hidden"
+              />
+              {uploadError && <p className="text-sm text-red-600 mb-2">{uploadError}</p>}
               <textarea
+                ref={bodyRef}
                 id="body"
                 required
                 value={body}
                 onChange={(e) => setBody(e.target.value)}
                 rows={18}
-                placeholder={"Write your post here. Leave a blank line between paragraphs.\n\nBasic markdown works: **bold**, *italic*, and lines starting with \"## \" become headings."}
+                placeholder={"Write your post here. Leave a blank line between paragraphs.\n\nBasic markdown works: **bold**, *italic*, and lines starting with \"## \" become headings.\n\nUse \"+ Insert image\" above to drop in a photo from your computer — it lands at your cursor, and you can add a caption by writing a line of text right after it, just like the rest of the article."}
                 className="w-full rounded-md border border-stone/30 px-4 py-3 text-navy leading-relaxed focus:outline-none focus:ring-2 focus:ring-teal/50 font-mono text-sm"
               />
             </div>

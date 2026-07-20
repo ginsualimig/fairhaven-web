@@ -31,19 +31,28 @@ export async function listInsightSlugs(): Promise<string[]> {
   return data.filter((f) => f.type === "file" && f.name.endsWith(".md")).map((f) => f.name.replace(/\.md$/, ""));
 }
 
-export async function createInsightFile(slug: string, content: string, commitMessage: string): Promise<void> {
+async function createFile(path: string, base64Content: string, commitMessage: string): Promise<void> {
   const { token, repo, branch } = config();
-  const path = `content/insights/${slug}.md`;
   const res = await fetch(`${GITHUB_API}/repos/${repo}/contents/${path}`, {
     method: "PUT",
     headers: { ...headers(token), "Content-Type": "application/json" },
     body: JSON.stringify({
       message: commitMessage,
-      content: Buffer.from(content, "utf-8").toString("base64"),
+      content: base64Content,
       branch,
     }),
   });
   if (!res.ok) {
     throw new Error(`GitHub commit failed: ${res.status} ${await res.text()}`);
   }
+}
+
+export async function createInsightFile(slug: string, content: string, commitMessage: string): Promise<void> {
+  await createFile(`content/insights/${slug}.md`, Buffer.from(content, "utf-8").toString("base64"), commitMessage);
+}
+
+export async function uploadBlogImage(filename: string, base64Content: string, commitMessage: string): Promise<string> {
+  const path = `public/images/blog/${filename}`;
+  await createFile(path, base64Content, commitMessage);
+  return `/images/blog/${filename}`;
 }

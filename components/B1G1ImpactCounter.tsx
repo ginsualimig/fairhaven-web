@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { motion, useInView, useMotionValue, useSpring, useReducedMotion } from "framer-motion";
+import { motion, useMotionValue, useSpring, useReducedMotion } from "framer-motion";
 
 export default function B1G1ImpactCounter() {
   const [total, setTotal] = useState<number | null>(null);
   const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true, amount: 0.6 });
   const reduceMotion = useReducedMotion();
 
   const motionVal = useMotionValue(0);
@@ -26,8 +25,8 @@ export default function B1G1ImpactCounter() {
   }, []);
 
   useEffect(() => {
-    if (isInView && total !== null) motionVal.set(total);
-  }, [isInView, total, motionVal]);
+    if (total !== null) motionVal.set(total);
+  }, [total, motionVal]);
 
   useEffect(() => {
     if (total === null || !ref.current) return;

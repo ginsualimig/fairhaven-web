@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import HeroSection from "@/components/HeroSection";
 import CTASection from "@/components/CTASection";
 import NewsletterForm from "@/components/NewsletterForm";
+import Reveal from "@/components/Reveal";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
@@ -26,20 +27,22 @@ export default function DealSourcingPage() {
       />
 
       <section className="py-24 bg-offwhite">
-        <Container className="max-w-3xl text-center">
-          <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
-            Coming Soon
-          </span>
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3 mb-6">
-            More details to follow
-          </h2>
-          <p className="text-stone leading-relaxed text-lg">
-            We&apos;re putting the finishing touches on this page. In the meantime, Fairhaven&apos;s deal sourcing
-            capability spans off-market opportunities across New Zealand, Australia, Singapore, Malaysia and
-            Southeast Asia — feeding disciplined, high-potential dealflow into our Discretionary Fund and directly to
-            partners we work with. Get in touch with our team to learn more about current opportunities.
-          </p>
-        </Container>
+        <Reveal>
+          <Container className="max-w-3xl text-center">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              Coming Soon
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3 mb-6">
+              More details to follow
+            </h2>
+            <p className="text-stone leading-relaxed text-lg">
+              We&apos;re putting the finishing touches on this page. In the meantime, Fairhaven&apos;s deal sourcing
+              capability spans off-market opportunities across New Zealand, Australia, Singapore, Malaysia and
+              Southeast Asia — feeding disciplined, high-potential dealflow into our Discretionary Fund and directly to
+              partners we work with. Get in touch with our team to learn more about current opportunities.
+            </p>
+          </Container>
+        </Reveal>
       </section>
 
       <CTASection

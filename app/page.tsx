@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import ServiceCard from "@/components/ServiceCard";
 import StatCard from "@/components/StatCard";
 import NewsletterForm from "@/components/NewsletterForm";
+import Reveal, { StaggerGroup, StaggerItem } from "@/components/Reveal";
 import { pageMetadata } from "@/lib/metadata";
 import { getAllBlogPosts } from "@/lib/blog-posts";
 
@@ -35,46 +36,52 @@ export default function HomePage() {
       {/* What we do */}
       <section className="py-24 bg-offwhite">
         <Container>
-          <div className="max-w-2xl mb-14">
+          <Reveal className="max-w-2xl mb-14">
             <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
               What We Do
             </span>
             <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
               Three disciplines. One disciplined approach to real estate.
             </h2>
-          </div>
+          </Reveal>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            <ServiceCard
-              title="Discretionary Fund Management"
-              description="A wholesale-investor property fund targeting ~15% net p.a., built on leveraged acquisitions of high-potential land and commercial property across New Zealand."
-              href="/discretionary-fund"
-              metric="~15%"
-            />
-            <ServiceCard
-              title="Deal Sourcing"
-              description="Off-market dealflow across New Zealand, Australia, Singapore, Malaysia and Southeast Asia — sourced through our network before opportunities go public."
-              href="/deal-sourcing"
-              metric="5 Markets"
-            />
-            <ServiceCard
-              title="Property Management & Optimisation"
-              description="Hands-on asset management that drives rent optimisation, cost reduction and occupancy — so every property under our care reaches its full potential."
-              href="/property-management"
-              metric="Full-Service"
-            />
-          </div>
+          <StaggerGroup className="grid md:grid-cols-3 gap-6">
+            <StaggerItem>
+              <ServiceCard
+                title="Discretionary Fund Management"
+                description="A wholesale-investor property fund targeting ~15% net p.a., built on leveraged acquisitions of high-potential land and commercial property across New Zealand."
+                href="/discretionary-fund"
+                metric="~15%"
+              />
+            </StaggerItem>
+            <StaggerItem>
+              <ServiceCard
+                title="Deal Sourcing"
+                description="Off-market dealflow across New Zealand, Australia, Singapore, Malaysia and Southeast Asia — sourced through our network before opportunities go public."
+                href="/deal-sourcing"
+                metric="5 Markets"
+              />
+            </StaggerItem>
+            <StaggerItem>
+              <ServiceCard
+                title="Property Management & Optimisation"
+                description="Hands-on asset management that drives rent optimisation, cost reduction and occupancy — so every property under our care reaches its full potential."
+                href="/property-management"
+                metric="Full-Service"
+              />
+            </StaggerItem>
+          </StaggerGroup>
         </Container>
       </section>
 
       {/* Photo band */}
-      <section className="grid grid-cols-1 sm:grid-cols-3">
+      <StaggerGroup className="grid grid-cols-1 sm:grid-cols-3" stagger={0.15}>
         {[
           { src: "/images/apartment-block.webp", alt: "Residential apartment block asset" },
           { src: "/images/meeting.webp", alt: "Fairhaven investor relations meeting" },
           { src: "/images/skyscraper.webp", alt: "Commercial office tower" },
         ].map((img) => (
-          <div key={img.src} className="relative aspect-[4/3] overflow-hidden group">
+          <StaggerItem key={img.src} className="relative aspect-[4/3] overflow-hidden group" y={0}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={img.src}
@@ -82,19 +89,27 @@ export default function HomePage() {
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-navy/10 group-hover:bg-navy/0 transition-colors duration-500" />
-          </div>
+          </StaggerItem>
         ))}
-      </section>
+      </StaggerGroup>
 
       {/* Stats band */}
       <section className="py-20 bg-white border-y border-stone/10">
         <Container>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-            <StatCard stat="14–15%" label="Target net IRR p.a.*" tooltip="Discretionary Fund target return" />
-            <StatCard stat="50%" label="Target loan-to-value ratio" />
-            <StatCard stat="10 yrs" label="Fund lifetime (+3yr option)" />
-            <StatCard stat="5" label="Markets: NZ · AU · SG · MY · SEA" />
-          </div>
+          <StaggerGroup className="grid grid-cols-2 md:grid-cols-4 gap-5">
+            <StaggerItem>
+              <StatCard stat="14–15%" label="Target net IRR p.a.*" tooltip="Discretionary Fund target return" />
+            </StaggerItem>
+            <StaggerItem>
+              <StatCard stat="50%" label="Target loan-to-value ratio" />
+            </StaggerItem>
+            <StaggerItem>
+              <StatCard stat="10 yrs" label="Fund lifetime (+3yr option)" />
+            </StaggerItem>
+            <StaggerItem>
+              <StatCard stat="5" label="Markets: NZ · AU · SG · MY · SEA" />
+            </StaggerItem>
+          </StaggerGroup>
           <p className="text-xs text-stone/70 mt-6 max-w-2xl">
             *Targeted returns are indicative only and available exclusively to Wholesale Investors. See the{" "}
             <Link href="/discretionary-fund" className="underline hover:text-teal">
@@ -109,7 +124,7 @@ export default function HomePage() {
       {latestPosts.length > 0 && (
         <section className="py-24 bg-offwhite">
           <Container>
-            <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
+            <Reveal className="flex items-end justify-between mb-10 flex-wrap gap-4">
               <div>
                 <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
                   News &amp; Insights
@@ -121,56 +136,59 @@ export default function HomePage() {
               <Link href="/news-insights" className="text-sm text-gold font-medium hover:text-gold/80 transition-colors">
                 View all insights →
               </Link>
-            </div>
-            <div className="grid md:grid-cols-3 gap-6">
+            </Reveal>
+            <StaggerGroup className="grid md:grid-cols-3 gap-6">
               {latestPosts.map((post) => (
-                <Link
-                  key={post.slug}
-                  href={`/news-insights/${post.slug}`}
-                  className="group rounded-lg border border-stone/20 bg-white overflow-hidden hover:border-teal/60 transition-colors"
-                >
-                  <div className="aspect-[16/10] overflow-hidden bg-stone/10">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <p className="text-xs text-stone/70 mb-2">
-                      {new Date(post.date).toLocaleDateString("en-NZ", { year: "numeric", month: "long", day: "numeric" })}
-                    </p>
-                    <h3 className="text-navy font-serif font-semibold leading-snug group-hover:text-teal transition-colors">
-                      {post.title}
-                    </h3>
-                  </div>
-                </Link>
+                <StaggerItem key={post.slug}>
+                  <Link
+                    href={`/news-insights/${post.slug}`}
+                    className="group rounded-lg border border-stone/20 bg-white overflow-hidden hover:border-teal/60 transition-colors block"
+                  >
+                    <div className="aspect-[16/10] overflow-hidden bg-stone/10">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={post.image}
+                        alt={post.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <p className="text-xs text-stone/70 mb-2">
+                        {new Date(post.date).toLocaleDateString("en-NZ", { year: "numeric", month: "long", day: "numeric" })}
+                      </p>
+                      <h3 className="text-navy font-serif font-semibold leading-snug group-hover:text-teal transition-colors">
+                        {post.title}
+                      </h3>
+                    </div>
+                  </Link>
+                </StaggerItem>
               ))}
-            </div>
+            </StaggerGroup>
           </Container>
         </section>
       )}
 
       {/* Newsletter */}
       <section className="py-20 bg-navy">
-        <Container className="max-w-3xl text-center">
-          <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
-            Be In The Know
-          </span>
-          <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
-            Stay updated on New Zealand investment opportunities
-          </h2>
-          <p className="text-offwhite/70 mb-8 leading-relaxed">
-            Get market commentary, fund updates and new deal alerts direct from our team. If you&apos;re a tenant or
-            have an enquiry about a property we manage,{" "}
-            <Link href="/pm-enquiry" className="text-gold underline hover:text-gold/80">
-              contact our property management team directly
-            </Link>
-            .
-          </p>
-          <NewsletterForm variant="dark" className="max-w-xl mx-auto" />
-        </Container>
+        <Reveal>
+          <Container className="max-w-3xl text-center">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              Be In The Know
+            </span>
+            <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
+              Stay updated on New Zealand investment opportunities
+            </h2>
+            <p className="text-offwhite/70 mb-8 leading-relaxed">
+              Get market commentary, fund updates and new deal alerts direct from our team. If you&apos;re a tenant or
+              have an enquiry about a property we manage,{" "}
+              <Link href="/pm-enquiry" className="text-gold underline hover:text-gold/80">
+                contact our property management team directly
+              </Link>
+              .
+            </p>
+            <NewsletterForm variant="dark" className="max-w-xl mx-auto" />
+          </Container>
+        </Reveal>
       </section>
 
       {/* Important Disclaimer — verbatim from live site */}

@@ -1,4 +1,8 @@
+"use client";
+
+import { useRef } from "react";
 import Image from "next/image";
+import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { ButtonLink } from "./Button";
 
 interface HeroSectionProps {
@@ -14,6 +18,16 @@ interface HeroSectionProps {
   imageAlt?: string;
 }
 
+const textVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.12, delayChildren: 0.05 } },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 22 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.21, 0.47, 0.32, 0.98] as const } },
+};
+
 export default function HeroSection({
   eyebrow,
   heading,
@@ -26,17 +40,18 @@ export default function HeroSection({
   image,
   imageAlt = "",
 }: HeroSectionProps) {
+  const sectionRef = useRef<HTMLElement>(null);
+  const reduceMotion = useReducedMotion();
+  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
+  const imageScale = useTransform(scrollYProgress, [0, 1], [1, reduceMotion ? 1 : 1.18]);
+  const imageY = useTransform(scrollYProgress, [0, 1], [0, reduceMotion ? 0 : 80]);
+
   return (
-    <section className="relative bg-navy overflow-hidden">
+    <section ref={sectionRef} className="relative bg-navy overflow-hidden">
       {image && (
-        <Image
-          src={image}
-          alt={imageAlt}
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
-        />
+        <motion.div className="absolute inset-0" style={{ scale: imageScale, y: imageY }}>
+          <Image src={image} alt={imageAlt} fill priority sizes="100vw" className="object-cover object-center" />
+        </motion.div>
       )}
       <div
         className={`absolute inset-0 pointer-events-none ${
@@ -57,20 +72,26 @@ export default function HeroSection({
       )}
 
       <div className={`relative mx-auto max-w-7xl px-6 ${compact ? "py-20 md:py-28" : "py-28 md:py-40"}`}>
-        <div className="max-w-3xl">
+        <motion.div className="max-w-3xl" variants={textVariants} initial="hidden" animate="show">
           {eyebrow && (
-            <span className="inline-block text-teal text-xs font-semibold tracking-widest uppercase mb-5 label-uppercase">
+            <motion.span
+              variants={itemVariants}
+              className="inline-block text-teal text-xs font-semibold tracking-widest uppercase mb-5 label-uppercase"
+            >
               {eyebrow}
-            </span>
+            </motion.span>
           )}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-offwhite leading-tight mb-6">
+          <motion.h1
+            variants={itemVariants}
+            className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-offwhite leading-tight mb-6"
+          >
             {heading}
-          </h1>
-          <p className="text-offwhite/65 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
+          </motion.h1>
+          <motion.p variants={itemVariants} className="text-offwhite/65 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
             {subheading}
-          </p>
+          </motion.p>
           {(primaryLabel || secondaryLabel) && (
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               {primaryLabel && primaryHref && (
                 <ButtonLink href={primaryHref} variant="primary">
                   {primaryLabel}
@@ -81,9 +102,9 @@ export default function HeroSection({
                   {secondaryLabel}
                 </ButtonLink>
               )}
-            </div>
+            </motion.div>
           )}
-        </div>
+        </motion.div>
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-gold/50 to-transparent" />

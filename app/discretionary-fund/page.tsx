@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import HeroSection from "@/components/HeroSection";
 import StatCard from "@/components/StatCard";
 import NewsletterForm from "@/components/NewsletterForm";
+import Reveal, { StaggerGroup, StaggerItem } from "@/components/Reveal";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
@@ -66,23 +67,31 @@ export default function DiscretionaryFundPage() {
       {/* Fund summary */}
       <section className="py-24 bg-offwhite">
         <Container>
-          <div className="max-w-2xl mb-12">
+          <Reveal className="max-w-2xl mb-12">
             <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
               Fund Summary
             </span>
             <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
               Structured for disciplined, long-term performance
             </h2>
-          </div>
+          </Reveal>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-8">
-            <StatCard stat="14–15%" label="Target net IRR p.a.*" tooltip="Indicative target return, not guaranteed" />
-            <StatCard stat="10 yrs" label="Fund lifetime (+3yr option)" />
-            <StatCard stat="NZD 1M" label="Minimum investment" />
-            <StatCard stat="50%" label="Target loan-to-value ratio (LVR)" />
-          </div>
+          <StaggerGroup className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-8">
+            <StaggerItem>
+              <StatCard stat="14–15%" label="Target net IRR p.a.*" tooltip="Indicative target return, not guaranteed" />
+            </StaggerItem>
+            <StaggerItem>
+              <StatCard stat="10 yrs" label="Fund lifetime (+3yr option)" />
+            </StaggerItem>
+            <StaggerItem>
+              <StatCard stat="NZD 1M" label="Minimum investment" />
+            </StaggerItem>
+            <StaggerItem>
+              <StatCard stat="50%" label="Target loan-to-value ratio (LVR)" />
+            </StaggerItem>
+          </StaggerGroup>
 
-          <div className="rounded-lg border border-stone/20 bg-white p-6 md:p-8">
+          <Reveal delay={0.1} className="rounded-lg border border-stone/20 bg-white p-6 md:p-8">
             <p className="text-sm text-stone leading-relaxed">
               *Fairhaven Property Group specializes in real estate investment opportunities across New Zealand,
               tailored specifically for wholesale investors as defined by the Financial Markets Authority (FMA).
@@ -93,31 +102,35 @@ export default function DiscretionaryFundPage() {
               regulatory authority to assess their eligibility for investing with our entity, contingent upon their
               residency status.
             </p>
-          </div>
+          </Reveal>
         </Container>
       </section>
 
       {/* Acquisition Profile */}
       <section id="acquisition-profile" className="py-20 bg-white border-y border-stone/10">
         <Container>
-          <div className="max-w-2xl mb-14">
+          <Reveal className="max-w-2xl mb-14">
             <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
               Acquisition Profile
             </span>
             <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
               A curated pipeline across New Zealand&apos;s key regions
             </h2>
-          </div>
+          </Reveal>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <StaggerGroup className="grid md:grid-cols-3 gap-6">
             {acquisitionProfiles.map((asset) => (
-              <div
+              <StaggerItem
                 key={asset.title}
                 className="rounded-lg border border-stone/20 bg-offwhite overflow-hidden hover:border-teal/60 transition-colors duration-300"
               >
                 <div className="aspect-[16/10] overflow-hidden bg-stone/10">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={asset.image} alt={asset.title} className="w-full h-full object-cover" />
+                  <img
+                    src={asset.image}
+                    alt={asset.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">
@@ -139,27 +152,29 @@ export default function DiscretionaryFundPage() {
                   </dl>
                   <p className="text-stone text-sm leading-relaxed">{asset.description}</p>
                 </div>
-              </div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerGroup>
         </Container>
       </section>
 
       {/* Onboarding CTA */}
       <section className="py-20 bg-navy">
-        <Container className="max-w-2xl text-center">
-          <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
-            Be the First to Know
-          </span>
-          <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
-            We are currently finalizing the Information Memorandum.
-          </h2>
-          <p className="text-offwhite/70 mb-8 leading-relaxed">
-            Register your details below and we&apos;ll notify you as soon as the Fairhaven Discretionary Fund
-            Information Memorandum is available for wholesale investors.
-          </p>
-          <NewsletterForm variant="dark" className="max-w-xl mx-auto" />
-        </Container>
+        <Reveal>
+          <Container className="max-w-2xl text-center">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              Be the First to Know
+            </span>
+            <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
+              We are currently finalizing the Information Memorandum.
+            </h2>
+            <p className="text-offwhite/70 mb-8 leading-relaxed">
+              Register your details below and we&apos;ll notify you as soon as the Fairhaven Discretionary Fund
+              Information Memorandum is available for wholesale investors.
+            </p>
+            <NewsletterForm variant="dark" className="max-w-xl mx-auto" />
+          </Container>
+        </Reveal>
       </section>
     </>
   );

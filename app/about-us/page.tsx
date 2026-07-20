@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import Container from "@/components/Container";
 import { ButtonLink } from "@/components/Button";
+import Reveal, { StaggerGroup, StaggerItem } from "@/components/Reveal";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
@@ -28,12 +29,14 @@ export default function AboutUsPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/50 pointer-events-none" />
 
         <Container className="relative py-28 md:py-36">
-          <span className="inline-block text-teal text-xs font-semibold tracking-widest uppercase mb-5 label-uppercase">
-            About Fairhaven
-          </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-offwhite leading-tight max-w-3xl">
-            About us
-          </h1>
+          <Reveal y={22}>
+            <span className="inline-block text-teal text-xs font-semibold tracking-widest uppercase mb-5 label-uppercase">
+              About Fairhaven
+            </span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-offwhite leading-tight max-w-3xl">
+              About us
+            </h1>
+          </Reveal>
         </Container>
 
         <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
@@ -42,7 +45,7 @@ export default function AboutUsPage() {
       {/* Where Opportunity and Expertise Converge */}
       <section className="py-24 bg-offwhite">
         <Container>
-          <div className="max-w-2xl mb-14">
+          <Reveal className="max-w-2xl mb-14">
             <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
               Our Philosophy
             </span>
@@ -50,10 +53,10 @@ export default function AboutUsPage() {
               Where Opportunity and Expertise Converge
             </h2>
             <p className="text-stone text-lg mt-4">Focusing on Results that matter</p>
-          </div>
+          </Reveal>
 
-          <div className="grid md:grid-cols-3 gap-10">
-            <div>
+          <StaggerGroup className="grid md:grid-cols-3 gap-10">
+            <StaggerItem>
               <h3 className="font-serif text-xl font-semibold text-navy mb-3">Our Mission</h3>
               <p className="text-stone leading-relaxed">
                 Our mission is to create exceptional value for investors by identifying and unlocking opportunities
@@ -61,8 +64,8 @@ export default function AboutUsPage() {
                 to acquire, reposition and manage real estate assets that generate durable, risk-adjusted returns for
                 the wholesale investors and family offices who partner with us.
               </p>
-            </div>
-            <div>
+            </StaggerItem>
+            <StaggerItem>
               <h3 className="font-serif text-xl font-semibold text-navy mb-3">Our Approach</h3>
               <p className="text-stone leading-relaxed">
                 At Fairhaven Property Group, we take a holistic approach to real estate investment. From sourcing and
@@ -70,8 +73,8 @@ export default function AboutUsPage() {
                 guided by rigorous analysis and a hands-on operating philosophy — ensuring that each asset under our
                 stewardship is positioned to reach its full potential.
               </p>
-            </div>
-            <div>
+            </StaggerItem>
+            <StaggerItem>
               <h3 className="font-serif text-xl font-semibold text-navy mb-3">Our Commitment</h3>
               <p className="text-stone leading-relaxed">
                 At Fairhaven Property Group, we are committed to transparency, integrity, and delivering exceptional
@@ -79,8 +82,8 @@ export default function AboutUsPage() {
                 investment and long-term value creation go hand in hand, and we hold ourselves to that standard in
                 every transaction.
               </p>
-            </div>
-          </div>
+            </StaggerItem>
+          </StaggerGroup>
         </Container>
       </section>
 
@@ -88,15 +91,15 @@ export default function AboutUsPage() {
       <section className="py-20 bg-white border-y border-stone/10">
         <Container>
           <div className="grid md:grid-cols-2 gap-14 items-center">
-            <div className="rounded-lg overflow-hidden order-2 md:order-1">
+            <Reveal y={0} className="rounded-lg overflow-hidden order-2 md:order-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/1692641991491-5431RW88GMPY2RSYOXSM/image-asset.jpeg"
                 alt="The Fairhaven Property Group team"
                 className="w-full h-full object-cover"
               />
-            </div>
-            <div className="order-1 md:order-2">
+            </Reveal>
+            <Reveal delay={0.1} className="order-1 md:order-2">
               <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
                 Leadership
               </span>
@@ -114,37 +117,39 @@ export default function AboutUsPage() {
                 property management disciplines, giving investors access to institutional-grade rigour with the
                 agility of a specialist operator.
               </p>
-            </div>
+            </Reveal>
           </div>
         </Container>
       </section>
 
       {/* Contact CTA */}
       <section className="py-20 bg-navy">
-        <Container className="max-w-3xl text-center">
-          <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
-            Get In Touch
-          </span>
-          <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
-            Want to learn more about investing with Fairhaven?
-          </h2>
-          <p className="text-offwhite/70 mb-8 leading-relaxed">
-            Our team is happy to walk you through our approach, current strategy and how we work with wholesale
-            investors, institutions and family offices.
-          </p>
-          <div className="flex justify-center">
-            <ButtonLink href="/contact-us" variant="primary">
-              Contact Our Team
-            </ButtonLink>
-          </div>
-          <p className="text-offwhite/50 text-sm mt-6">
-            Managing a property with us?{" "}
-            <Link href="/pm-enquiry" className="text-gold underline hover:text-gold/80">
-              Submit a Property Management enquiry
-            </Link>
-            .
-          </p>
-        </Container>
+        <Reveal>
+          <Container className="max-w-3xl text-center">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              Get In Touch
+            </span>
+            <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
+              Want to learn more about investing with Fairhaven?
+            </h2>
+            <p className="text-offwhite/70 mb-8 leading-relaxed">
+              Our team is happy to walk you through our approach, current strategy and how we work with wholesale
+              investors, institutions and family offices.
+            </p>
+            <div className="flex justify-center">
+              <ButtonLink href="/contact-us" variant="primary">
+                Contact Our Team
+              </ButtonLink>
+            </div>
+            <p className="text-offwhite/50 text-sm mt-6">
+              Managing a property with us?{" "}
+              <Link href="/pm-enquiry" className="text-gold underline hover:text-gold/80">
+                Submit a Property Management enquiry
+              </Link>
+              .
+            </p>
+          </Container>
+        </Reveal>
       </section>
     </>
   );

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, useSpring } from "framer-motion";
+import CountUp from "./CountUp";
 
 interface StatCardProps {
   stat: string;
@@ -44,7 +45,7 @@ export default function StatCard({ stat, label, tooltip }: StatCardProps) {
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="text-3xl font-bold text-gold font-serif mb-1">{stat}</div>
+        <CountUp value={stat} className="block text-3xl font-bold text-gold font-serif mb-1" />
         <div className="text-sm text-stone">{label}</div>
 
         {tooltip && hovered && (

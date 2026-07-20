@@ -6,6 +6,7 @@ import matter from "gray-matter";
 import Container from "@/components/Container";
 import HeroSection from "@/components/HeroSection";
 import NewsletterForm from "@/components/NewsletterForm";
+import Reveal, { StaggerGroup, StaggerItem } from "@/components/Reveal";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
@@ -78,71 +79,76 @@ export default function CareersPage() {
 
       {/* Overview */}
       <section className="py-24 bg-offwhite">
-        <Container className="max-w-4xl">
-          <p className="text-stone text-lg leading-relaxed">
-            Fairhaven Property Group offers exciting career opportunities for professionals looking to
-            contribute to the growth and success of our dynamic company. As a member of our team, you will
-            play a crucial role in shaping the future of real estate investment while working in a
-            collaborative and innovative environment. Join us and be part of a team that is committed to
-            unlocking the potential of communities, driving positive change, and fostering professional
-            growth. Explore our current job openings and submit your application below.
-          </p>
-        </Container>
+        <Reveal>
+          <Container className="max-w-4xl">
+            <p className="text-stone text-lg leading-relaxed">
+              Fairhaven Property Group offers exciting career opportunities for professionals looking to
+              contribute to the growth and success of our dynamic company. As a member of our team, you will
+              play a crucial role in shaping the future of real estate investment while working in a
+              collaborative and innovative environment. Join us and be part of a team that is committed to
+              unlocking the potential of communities, driving positive change, and fostering professional
+              growth. Explore our current job openings and submit your application below.
+            </p>
+          </Container>
+        </Reveal>
       </section>
 
       {/* Open roles */}
       <section className="py-20 bg-white border-t border-stone/10">
         <Container>
-          <div className="max-w-2xl mb-14">
+          <Reveal className="max-w-2xl mb-14">
             <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
               Open Roles
             </span>
             <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
               Current opportunities at Fairhaven
             </h2>
-          </div>
+          </Reveal>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <StaggerGroup className="grid md:grid-cols-2 gap-6">
             {roles.map((role) => (
-              <Link
-                key={role.slug}
-                href={`/careers/${role.slug}`}
-                className="group flex flex-col rounded-lg border border-stone/20 bg-offwhite p-8 hover:border-teal/60 hover:shadow-md transition-all duration-200"
-              >
-                <div className="flex items-center gap-3 mb-4 flex-wrap">
-                  <span className="text-xs font-semibold tracking-widest uppercase label-uppercase text-teal">
-                    {role.type}
+              <StaggerItem key={role.slug}>
+                <Link
+                  href={`/careers/${role.slug}`}
+                  className="group flex flex-col rounded-lg border border-stone/20 bg-offwhite p-8 hover:border-teal/60 hover:shadow-md transition-all duration-200 h-full"
+                >
+                  <div className="flex items-center gap-3 mb-4 flex-wrap">
+                    <span className="text-xs font-semibold tracking-widest uppercase label-uppercase text-teal">
+                      {role.type}
+                    </span>
+                    <span className="text-stone/40">•</span>
+                    <span className="text-xs text-stone">{role.location}</span>
+                  </div>
+                  <h3 className="text-2xl font-bold font-serif text-navy mb-3 group-hover:text-teal transition-colors">
+                    {role.title}
+                  </h3>
+                  <p className="text-stone leading-relaxed mb-6 flex-1">{role.summary}</p>
+                  <span className="text-sm font-semibold text-gold group-hover:text-gold/80 transition-colors">
+                    Apply Now →
                   </span>
-                  <span className="text-stone/40">•</span>
-                  <span className="text-xs text-stone">{role.location}</span>
-                </div>
-                <h3 className="text-2xl font-bold font-serif text-navy mb-3 group-hover:text-teal transition-colors">
-                  {role.title}
-                </h3>
-                <p className="text-stone leading-relaxed mb-6 flex-1">{role.summary}</p>
-                <span className="text-sm font-semibold text-gold group-hover:text-gold/80 transition-colors">
-                  Apply Now →
-                </span>
-              </Link>
+                </Link>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerGroup>
         </Container>
       </section>
 
       {/* Newsletter */}
       <section className="py-20 bg-navy">
-        <Container className="max-w-3xl text-center">
-          <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
-            Be In The Know
-          </span>
-          <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
-            Stay updated on opportunities at Fairhaven
-          </h2>
-          <p className="text-offwhite/70 mb-8 leading-relaxed">
-            Get market commentary, fund updates, and new role alerts direct from our team.
-          </p>
-          <NewsletterForm variant="dark" className="max-w-xl mx-auto" />
-        </Container>
+        <Reveal>
+          <Container className="max-w-3xl text-center">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              Be In The Know
+            </span>
+            <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
+              Stay updated on opportunities at Fairhaven
+            </h2>
+            <p className="text-offwhite/70 mb-8 leading-relaxed">
+              Get market commentary, fund updates, and new role alerts direct from our team.
+            </p>
+            <NewsletterForm variant="dark" className="max-w-xl mx-auto" />
+          </Container>
+        </Reveal>
       </section>
     </>
   );

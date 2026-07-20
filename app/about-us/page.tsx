@@ -9,9 +9,36 @@ import { pageMetadata } from "@/lib/metadata";
 export const metadata: Metadata = pageMetadata({
   title: "About Us | Explore Our Expertise",
   description:
-    "Learn more about Fairhaven Property Group's approach in creating value for investors through strategic real estate investments and community engagement.",
+    "Learn more about Fairhaven Property Group's approach and the team behind it — creating value for investors through strategic real estate investments and community engagement.",
   path: "/about-us",
 });
+
+const teamMembers = [
+  {
+    name: "Petrus Yen",
+    title: "Managing Director",
+    bio: "Petrus leads acquisitions and capital structuring across the group. He has a background in investment, corporate advisory, and cross-border transactions, with a focus on property and infrastructure assets in New Zealand and Australia.",
+    image: "/headshots/petrus-yen.jpg",
+  },
+  {
+    name: "Ziqi Fan",
+    title: "Operations & Coordination",
+    bio: "Ziqi Fan leads execution and coordination across the group. She keeps priorities, timelines, and stakeholders aligned, ensuring day-to-day work runs smoothly across multiple active workstreams.",
+    image: "/headshots/ziqi-fan.jpg",
+  },
+  {
+    name: "Daarshan Kunasegaran",
+    title: "Financial Analyst",
+    bio: "Daarshan leads financial analysis, reporting, and investment research across the group. He supports opportunity evaluation, investment ideation, and the preparation of client materials, research papers, and transaction documents.",
+    image: "/headshots/daarshan-kunasegaran.jpg",
+  },
+  {
+    name: "Beatriz Tongco",
+    title: "Portfolio Operations",
+    bio: "Beatriz oversees portfolio operations in New Zealand across the group's assets and operating businesses. She manages inspections, stakeholder matters, and day-to-day execution across a diverse operating footprint.",
+    image: "/headshots/beatriz-tongco.jpg",
+  },
+];
 
 export default function AboutUsPage() {
   return (
@@ -87,7 +114,7 @@ export default function AboutUsPage() {
         </Container>
       </section>
 
-      {/* Team / Expertise */}
+      {/* Leadership intro */}
       <section className="py-20 bg-white border-y border-stone/10">
         <Container>
           <div className="grid md:grid-cols-2 gap-14 items-center">
@@ -119,6 +146,46 @@ export default function AboutUsPage() {
               </p>
             </Reveal>
           </div>
+        </Container>
+      </section>
+
+      {/* Team grid */}
+      <section id="team" className="py-24 bg-offwhite">
+        <Container>
+          <Reveal className="max-w-2xl mb-16 text-center mx-auto">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              Our Team
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
+              The people behind the work
+            </h2>
+            <p className="text-stone text-lg mt-4">
+              A small, hands-on team spanning capital, operations, analysis and portfolio management.
+            </p>
+          </Reveal>
+
+          <StaggerGroup className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            {teamMembers.map((member) => (
+              <StaggerItem key={member.name}>
+                <div className="group text-center sm:text-left">
+                  <div className="w-24 h-24 mx-auto sm:mx-0 rounded-full bg-navy/8 border border-stone/15 group-hover:border-gold/40 transition-colors mb-5 overflow-hidden">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      width={96}
+                      height={96}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="font-serif text-lg font-bold text-navy mb-0.5">{member.name}</h3>
+                  <p className="text-teal text-xs font-semibold uppercase tracking-wide mb-3 label-uppercase">
+                    {member.title}
+                  </p>
+                  <p className="text-stone text-sm leading-relaxed">{member.bio}</p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
         </Container>
       </section>
 

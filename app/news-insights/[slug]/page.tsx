@@ -7,15 +7,17 @@ import MarkdownContent from "@/components/MarkdownContent";
 import { pageMetadata } from "@/lib/metadata";
 import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
 
-const SLUG = "while-you-were-waiting";
+export function generateStaticParams() {
+  return getAllBlogPosts().map((post) => ({ slug: post.slug }));
+}
 
-export function generateMetadata(): Metadata {
-  const post = getBlogPost(SLUG);
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const post = getBlogPost(params.slug);
   if (!post) {
     return pageMetadata({
       title: "Article Not Found",
       description: "This article could not be found.",
-      path: `/news-insights/${SLUG}`,
+      path: `/news-insights/${params.slug}`,
     });
   }
   return pageMetadata({
@@ -26,8 +28,8 @@ export function generateMetadata(): Metadata {
   });
 }
 
-export default function BlogPostPage() {
-  const post = getBlogPost(SLUG);
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  const post = getBlogPost(params.slug);
   if (!post) notFound();
 
   const formattedDate = new Date(post.date).toLocaleDateString("en-NZ", {

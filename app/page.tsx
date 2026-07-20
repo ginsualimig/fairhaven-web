@@ -1,101 +1,192 @@
-import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+import Container from "@/components/Container";
+import HeroSection from "@/components/HeroSection";
+import ServiceCard from "@/components/ServiceCard";
+import StatCard from "@/components/StatCard";
+import NewsletterForm from "@/components/NewsletterForm";
+import { pageMetadata } from "@/lib/metadata";
+import { getAllBlogPosts } from "@/lib/blog-posts";
 
-export default function Home() {
+export const metadata: Metadata = pageMetadata({
+  title: "Fairhaven Property Group | Dunedin Property Investment & Management",
+  description:
+    "Fairhaven Property Group is a Dunedin-based discretionary property fund manager and deal sourcing partner, targeting ~15% net p.a. for wholesale investors across New Zealand, Australia and Southeast Asia.",
+  path: "/",
+});
+
+export default function HomePage() {
+  const latestPosts = getAllBlogPosts().slice(0, 3);
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <HeroSection
+        eyebrow="Discretionary Fund Management · Deal Sourcing · Property Management"
+        heading="Architects of lasting transformation in New Zealand real estate"
+        subheading="Fairhaven Property Group identifies overlooked property opportunities across New Zealand, Australia and Southeast Asia, and turns them into disciplined, income-generating assets for wholesale investors."
+        primaryLabel="Explore the Discretionary Fund"
+        primaryHref="/discretionary-fund"
+        secondaryLabel="Talk to Our Team"
+        secondaryHref="/contact-us"
+      />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+      {/* What we do */}
+      <section className="py-24 bg-offwhite">
+        <Container>
+          <div className="max-w-2xl mb-14">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              What We Do
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
+              Three disciplines. One disciplined approach to real estate.
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <ServiceCard
+              title="Discretionary Fund Management"
+              description="A wholesale-investor property fund targeting ~15% net p.a., built on leveraged acquisitions of high-potential land and commercial property across New Zealand."
+              href="/discretionary-fund"
+              metric="~15%"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+            <ServiceCard
+              title="Deal Sourcing"
+              description="Off-market dealflow across New Zealand, Australia, Singapore, Malaysia and Southeast Asia — sourced through our network before opportunities go public."
+              href="/deal-sourcing"
+              metric="5 Markets"
+            />
+            <ServiceCard
+              title="Property Management & Optimisation"
+              description="Hands-on asset management that drives rent optimisation, cost reduction and occupancy — so every property under our care reaches its full potential."
+              href="/property-management"
+              metric="Full-Service"
+            />
+          </div>
+        </Container>
+      </section>
+
+      {/* Stats band */}
+      <section className="py-20 bg-white border-y border-stone/10">
+        <Container>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+            <StatCard stat="14–15%" label="Target net IRR p.a.*" tooltip="Discretionary Fund target return" />
+            <StatCard stat="50%" label="Target loan-to-value ratio" />
+            <StatCard stat="10 yrs" label="Fund lifetime (+3yr option)" />
+            <StatCard stat="5" label="Markets: NZ · AU · SG · MY · SEA" />
+          </div>
+          <p className="text-xs text-stone/70 mt-6 max-w-2xl">
+            *Targeted returns are indicative only and available exclusively to Wholesale Investors. See the{" "}
+            <Link href="/discretionary-fund" className="underline hover:text-teal">
+              Discretionary Fund Management
+            </Link>{" "}
+            page for full detail and the Important Disclaimer below.
+          </p>
+        </Container>
+      </section>
+
+      {/* Latest insights */}
+      {latestPosts.length > 0 && (
+        <section className="py-24 bg-offwhite">
+          <Container>
+            <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
+              <div>
+                <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+                  News &amp; Insights
+                </span>
+                <h2 className="text-3xl font-bold font-serif text-navy mt-3">
+                  Market commentary from the Fairhaven desk
+                </h2>
+              </div>
+              <Link href="/news-insights" className="text-sm text-gold font-medium hover:text-gold/80 transition-colors">
+                View all insights →
+              </Link>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {latestPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/news-insights/${post.slug}`}
+                  className="group rounded-lg border border-stone/20 bg-white overflow-hidden hover:border-teal/60 transition-colors"
+                >
+                  <div className="aspect-[16/10] overflow-hidden bg-stone/10">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <p className="text-xs text-stone/70 mb-2">
+                      {new Date(post.date).toLocaleDateString("en-NZ", { year: "numeric", month: "long", day: "numeric" })}
+                    </p>
+                    <h3 className="text-navy font-serif font-semibold leading-snug group-hover:text-teal transition-colors">
+                      {post.title}
+                    </h3>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {/* Newsletter */}
+      <section className="py-20 bg-navy">
+        <Container className="max-w-3xl text-center">
+          <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+            Be In The Know
+          </span>
+          <h2 className="text-3xl font-bold font-serif text-offwhite mt-3 mb-4">
+            Stay updated on New Zealand investment opportunities
+          </h2>
+          <p className="text-offwhite/70 mb-8 leading-relaxed">
+            Get market commentary, fund updates and new deal alerts direct from our team. If you&apos;re a tenant or
+            have an enquiry about a property we manage,{" "}
+            <Link href="/pm-enquiry" className="text-gold underline hover:text-gold/80">
+              contact our property management team directly
+            </Link>
+            .
+          </p>
+          <NewsletterForm variant="dark" className="max-w-xl mx-auto" />
+        </Container>
+      </section>
+
+      {/* Important Disclaimer — verbatim from live site */}
+      <section className="py-16 bg-offwhite border-t border-stone/10">
+        <Container className="max-w-4xl">
+          <h2 className="font-serif text-xl font-semibold text-navy mb-4">Important Disclaimer</h2>
+          <div className="text-sm text-stone leading-relaxed space-y-4">
+            <p>
+              Fairhaven Property Group specializes in real estate investment opportunities across New Zealand,
+              tailored specifically for wholesale investors as defined by the Financial Markets Authority (FMA). Our
+              focus is on delivering strategic and high-value investment solutions, supported by our extensive market
+              knowledge and expertise.
+            </p>
+            <p>
+              At Fairhaven, we are committed to transparency and integrity in all our dealings. We invite wholesale
+              investors to explore our curated portfolio, designed to offer substantial growth and value. Please
+              note, our offerings are not available to retail investors.
+            </p>
+            <p>
+              For more information on what constitutes a wholesale investor, please visit the FMA&apos;s guidelines.
+            </p>
+            <p>
+              Individuals who are tax residents outside of New Zealand are hereby advised to procure legal counsel or
+              engage with the appropriate regulatory authority to assess their eligibility for investing with our
+              entity, contingent upon their residency status.
+            </p>
+            <p>
+              Fairhaven Property Group makes no representations or warranties, express or implied, regarding the
+              accuracy or completeness of the information contained herein. All information is provided &ldquo;as
+              is,&rdquo; without warranty of any kind. The contents of this page may be restricted by law in certain
+              jurisdictions. It is the responsibility of any person viewing this page to inform themselves of, and to
+              observe, any such restrictions.
+            </p>
+            <p>The information above is subject to the laws and regulations of New Zealand.</p>
+          </div>
+        </Container>
+      </section>
+    </>
   );
 }

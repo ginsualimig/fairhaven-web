@@ -28,6 +28,8 @@ export default function HomePage() {
         primaryHref="/discretionary-fund"
         secondaryLabel="Talk to Our Team"
         secondaryHref="/contact-us"
+        image="/images/hero-home.webp"
+        imageAlt="Modern commercial property developed by Fairhaven Property Group"
       />
 
       {/* What we do */}
@@ -63,6 +65,25 @@ export default function HomePage() {
             />
           </div>
         </Container>
+      </section>
+
+      {/* Photo band */}
+      <section className="grid grid-cols-1 sm:grid-cols-3">
+        {[
+          { src: "/images/apartment-block.webp", alt: "Residential apartment block asset" },
+          { src: "/images/meeting.webp", alt: "Fairhaven investor relations meeting" },
+          { src: "/images/skyscraper.webp", alt: "Commercial office tower" },
+        ].map((img) => (
+          <div key={img.src} className="relative aspect-[4/3] overflow-hidden group">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={img.src}
+              alt={img.alt}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-navy/10 group-hover:bg-navy/0 transition-colors duration-500" />
+          </div>
+        ))}
       </section>
 
       {/* Stats band */}

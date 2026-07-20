@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { footerLinkGroups, siteConfig } from "@/lib/site-config";
 
 export default function Footer() {
@@ -7,7 +8,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           <div className="md:col-span-2">
-            <div className="text-gold font-serif font-bold text-xl mb-3">Fairhaven Property Group</div>
+            <Image
+              src="/images/logo-white.webp"
+              alt="Fairhaven Property Group"
+              width={220}
+              height={46}
+              className="h-9 w-auto mb-4"
+            />
             <p className="text-sm leading-relaxed max-w-xs mb-6">
               Discretionary fund management, cross-border deal sourcing, and property management &amp;
               optimisation — headquartered in Dunedin, New Zealand.

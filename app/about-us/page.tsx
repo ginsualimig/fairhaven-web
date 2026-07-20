@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import Container from "@/components/Container";
 import { ButtonLink } from "@/components/Button";
@@ -16,13 +17,15 @@ export default function AboutUsPage() {
     <>
       {/* Hero with dark overlay */}
       <section className="relative bg-navy overflow-hidden">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="https://images.squarespace-cdn.com/content/v1/648907a5eeda1944bf418848/89a3e5ef-04b8-46ba-801f-1dd21b23e5ef/Geo1.png"
-          alt="Global geography of Fairhaven's markets across New Zealand, Australia and Southeast Asia"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
+        <Image
+          src="/images/about-1.webp"
+          alt="Fairhaven Property Group team"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/95 to-navy/80 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/50 pointer-events-none" />
 
         <Container className="relative py-28 md:py-36">
           <span className="inline-block text-teal text-xs font-semibold tracking-widest uppercase mb-5 label-uppercase">

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { navLinks } from "@/lib/site-config";
 
@@ -25,11 +26,15 @@ export default function Navbar() {
         Skip to content
       </a>
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-2" aria-label="Fairhaven Property Group home">
-          <span className="text-gold font-serif font-bold text-xl tracking-tight">Fairhaven</span>
-          <span className="hidden sm:inline text-offwhite/70 text-xs uppercase tracking-widest label-uppercase mt-1">
-            Property Group
-          </span>
+        <Link href="/" className="flex items-center" aria-label="Fairhaven Property Group home">
+          <Image
+            src="/images/logo-white.webp"
+            alt="Fairhaven Property Group"
+            width={220}
+            height={46}
+            priority
+            className="h-8 w-auto sm:h-9"
+          />
         </Link>
 
         <ul className="hidden lg:flex items-center gap-7">

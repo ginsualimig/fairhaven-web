@@ -21,6 +21,8 @@ export default function DealSourcingPage() {
         subheading="Our team sources property opportunities through an established network of agents, owners and operators — surfacing deals before they reach the open market."
         primaryLabel="Get in Touch to Learn More"
         primaryHref="/contact-us"
+        image="/images/skyscraper.webp"
+        imageAlt="Commercial office tower representing cross-border deal sourcing"
       />
 
       <section className="py-24 bg-offwhite">

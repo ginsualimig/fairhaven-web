@@ -72,6 +72,8 @@ export default function CareersPage() {
         eyebrow="Careers"
         heading="Join our team"
         subheading="Are you passionate about real estate and investment management?"
+        image="/images/careers-1.webp"
+        imageAlt="Fairhaven Property Group team at work"
       />
 
       {/* Overview */}

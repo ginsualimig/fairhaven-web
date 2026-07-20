@@ -21,6 +21,8 @@ export default function PropertyManagementPage() {
         subheading="For investors who want a disciplined partner rather than a buyer — we focus on rent optimisation, cost reduction and occupancy management so your property reaches its full potential."
         primaryLabel="Get in Touch to Learn More"
         primaryHref="/contact-us"
+        image="/images/apartment-block.webp"
+        imageAlt="Residential apartment block under Fairhaven management"
       />
 
       <section className="py-24 bg-offwhite">

@@ -59,6 +59,8 @@ export default function DiscretionaryFundPage() {
         primaryHref="/contact-us"
         secondaryLabel="View Acquisition Profile"
         secondaryHref="#acquisition-profile"
+        image="/images/fund-hero-2.webp"
+        imageAlt="City skyline at dusk representing Fairhaven's Discretionary Fund"
       />
 
       {/* Fund summary */}

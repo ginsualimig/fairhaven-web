@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ButtonLink } from "./Button";
 
 interface HeroSectionProps {
@@ -9,6 +10,8 @@ interface HeroSectionProps {
   secondaryLabel?: string;
   secondaryHref?: string;
   compact?: boolean;
+  image?: string;
+  imageAlt?: string;
 }
 
 export default function HeroSection({
@@ -20,18 +23,38 @@ export default function HeroSection({
   secondaryLabel,
   secondaryHref,
   compact = false,
+  image,
+  imageAlt = "",
 }: HeroSectionProps) {
   return (
     <section className="relative bg-navy overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-teal/10 pointer-events-none" />
+      {image && (
+        <Image
+          src={image}
+          alt={imageAlt}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+      )}
       <div
-        className="absolute inset-0 opacity-[0.025] pointer-events-none"
-        style={{
-          backgroundImage:
-            "linear-gradient(#D4AF37 1px, transparent 1px), linear-gradient(90deg, #D4AF37 1px, transparent 1px)",
-          backgroundSize: "80px 80px",
-        }}
+        className={`absolute inset-0 pointer-events-none ${
+          image
+            ? "bg-gradient-to-r from-navy via-navy/85 to-navy/50"
+            : "bg-gradient-to-br from-navy via-navy to-teal/10"
+        }`}
       />
+      {!image && (
+        <div
+          className="absolute inset-0 opacity-[0.025] pointer-events-none"
+          style={{
+            backgroundImage:
+              "linear-gradient(#D4AF37 1px, transparent 1px), linear-gradient(90deg, #D4AF37 1px, transparent 1px)",
+            backgroundSize: "80px 80px",
+          }}
+        />
+      )}
 
       <div className={`relative mx-auto max-w-7xl px-6 ${compact ? "py-20 md:py-28" : "py-28 md:py-40"}`}>
         <div className="max-w-3xl">

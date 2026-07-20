@@ -9,10 +9,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           <div className="md:col-span-2">
             <Image
-              src="/images/logo-white.webp"
+              src="/logos/logo-property-white.svg"
               alt="Fairhaven Property Group"
               width={220}
               height={46}
+              unoptimized
               className="h-9 w-auto mb-4"
             />
             <p className="text-sm leading-relaxed max-w-xs mb-6">

@@ -28,11 +28,12 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center" aria-label="Fairhaven Property Group home">
           <Image
-            src="/images/logo-white.webp"
+            src="/logos/logo-property-white.svg"
             alt="Fairhaven Property Group"
             width={220}
             height={46}
             priority
+            unoptimized
             className="h-8 w-auto sm:h-9"
           />
         </Link>

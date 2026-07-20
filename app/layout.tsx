@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SmoothScroll from "@/components/SmoothScroll";
 import { defaultMetadata, organizationJsonLd, localBusinessJsonLd } from "@/lib/metadata";
 
 const inter = Inter({
@@ -36,6 +37,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} ${playfairDisplay.variable} antialiased`}>
+        <SmoothScroll />
         <Navbar />
         <main id="main-content" className="min-h-screen">
           {children}

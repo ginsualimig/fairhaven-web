@@ -2,12 +2,45 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Container from "@/components/Container";
 import HeroSection from "@/components/HeroSection";
-import ServiceCard from "@/components/ServiceCard";
 import StatCard from "@/components/StatCard";
 import NewsletterForm from "@/components/NewsletterForm";
 import Reveal, { StaggerGroup, StaggerItem } from "@/components/Reveal";
+import StackCards from "@/components/StackCards";
 import { pageMetadata } from "@/lib/metadata";
 import { getAllBlogPosts } from "@/lib/blog-posts";
+
+const disciplines = [
+  {
+    eyebrow: "Discretionary Fund Management",
+    title: "A disciplined fund built for downside protection and upside capture",
+    description:
+      "A wholesale-investor property fund targeting ~15% net p.a., built on leveraged acquisitions of high-potential land and commercial property across New Zealand.",
+    metric: "~15%",
+    href: "/discretionary-fund",
+    image: "/images/fund-hero-3.webp",
+    imageAlt: "Commercial building representing Fairhaven's Discretionary Fund",
+  },
+  {
+    eyebrow: "Deal Sourcing",
+    title: "Off-market dealflow before it ever reaches the open market",
+    description:
+      "Off-market dealflow across New Zealand, Australia, Singapore, Malaysia and Southeast Asia — sourced through our network before opportunities go public.",
+    metric: "5 Markets",
+    href: "/deal-sourcing",
+    image: "/images/skyscraper.webp",
+    imageAlt: "Glass office tower representing cross-border deal sourcing",
+  },
+  {
+    eyebrow: "Property Management & Optimisation",
+    title: "Hands-on asset management that unlocks every property's full potential",
+    description:
+      "Hands-on asset management that drives rent optimisation, cost reduction and occupancy — so every property under our care reaches its full potential.",
+    metric: "Full-Service",
+    href: "/property-management",
+    image: "/images/apartment-block.webp",
+    imageAlt: "Residential apartment block under Fairhaven management",
+  },
+];
 
 export const metadata: Metadata = pageMetadata({
   title: "Fairhaven Property Group | Dunedin Property Investment & Management",
@@ -33,65 +66,20 @@ export default function HomePage() {
         imageAlt="Modern commercial property developed by Fairhaven Property Group"
       />
 
-      {/* What we do */}
-      <section className="py-24 bg-offwhite">
+      {/* What we do — pinned scrollytelling stack */}
+      <section className="relative bg-navy pt-16 pb-8">
         <Container>
-          <Reveal className="max-w-2xl mb-14">
+          <Reveal className="max-w-2xl">
             <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
               What We Do
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-offwhite mt-3">
               Three disciplines. One disciplined approach to real estate.
             </h2>
           </Reveal>
-
-          <StaggerGroup className="grid md:grid-cols-3 gap-6">
-            <StaggerItem>
-              <ServiceCard
-                title="Discretionary Fund Management"
-                description="A wholesale-investor property fund targeting ~15% net p.a., built on leveraged acquisitions of high-potential land and commercial property across New Zealand."
-                href="/discretionary-fund"
-                metric="~15%"
-              />
-            </StaggerItem>
-            <StaggerItem>
-              <ServiceCard
-                title="Deal Sourcing"
-                description="Off-market dealflow across New Zealand, Australia, Singapore, Malaysia and Southeast Asia — sourced through our network before opportunities go public."
-                href="/deal-sourcing"
-                metric="5 Markets"
-              />
-            </StaggerItem>
-            <StaggerItem>
-              <ServiceCard
-                title="Property Management & Optimisation"
-                description="Hands-on asset management that drives rent optimisation, cost reduction and occupancy — so every property under our care reaches its full potential."
-                href="/property-management"
-                metric="Full-Service"
-              />
-            </StaggerItem>
-          </StaggerGroup>
         </Container>
       </section>
-
-      {/* Photo band */}
-      <StaggerGroup className="grid grid-cols-1 sm:grid-cols-3" stagger={0.15}>
-        {[
-          { src: "/images/apartment-block.webp", alt: "Residential apartment block asset" },
-          { src: "/images/meeting.webp", alt: "Fairhaven investor relations meeting" },
-          { src: "/images/skyscraper.webp", alt: "Commercial office tower" },
-        ].map((img) => (
-          <StaggerItem key={img.src} className="relative aspect-[4/3] overflow-hidden group" y={0}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={img.src}
-              alt={img.alt}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-navy/10 group-hover:bg-navy/0 transition-colors duration-500" />
-          </StaggerItem>
-        ))}
-      </StaggerGroup>
+      <StackCards cards={disciplines} />
 
       {/* Stats band */}
       <section className="py-20 bg-white border-y border-stone/10">

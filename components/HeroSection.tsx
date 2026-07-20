@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { ButtonLink } from "./Button";
+import MagneticButton from "./MagneticButton";
 
 interface HeroSectionProps {
   eyebrow?: string;
@@ -24,8 +25,8 @@ const textVariants = {
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 22 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.21, 0.47, 0.32, 0.98] as const } },
+  hidden: { opacity: 0, y: 28, filter: "blur(10px)" },
+  show: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.85, ease: [0.21, 0.47, 0.32, 0.98] as const } },
 };
 
 export default function HeroSection({
@@ -43,8 +44,10 @@ export default function HeroSection({
   const sectionRef = useRef<HTMLElement>(null);
   const reduceMotion = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
-  const imageScale = useTransform(scrollYProgress, [0, 1], [1, reduceMotion ? 1 : 1.18]);
+  const imageScale = useTransform(scrollYProgress, [0, 1], [1, reduceMotion ? 1 : 1.25]);
   const imageY = useTransform(scrollYProgress, [0, 1], [0, reduceMotion ? 0 : 80]);
+  const sinkOpacity = useTransform(scrollYProgress, [0, 1], [0, reduceMotion ? 0 : 0.9]);
+  const contentOpacity = useTransform(scrollYProgress, [0, 0.8], [1, reduceMotion ? 1 : 0]);
 
   return (
     <section ref={sectionRef} className="relative bg-navy overflow-hidden">
@@ -60,6 +63,7 @@ export default function HeroSection({
             : "bg-gradient-to-br from-navy via-navy to-teal/10"
         }`}
       />
+      {image && <motion.div className="absolute inset-0 bg-navy pointer-events-none" style={{ opacity: sinkOpacity }} />}
       {!image && (
         <div
           className="absolute inset-0 opacity-[0.025] pointer-events-none"
@@ -71,7 +75,10 @@ export default function HeroSection({
         />
       )}
 
-      <div className={`relative mx-auto max-w-7xl px-6 ${compact ? "py-20 md:py-28" : "py-28 md:py-40"}`}>
+      <motion.div
+        className={`relative mx-auto max-w-7xl px-6 ${compact ? "py-20 md:py-28" : "py-28 md:py-40"}`}
+        style={{ opacity: contentOpacity }}
+      >
         <motion.div className="max-w-3xl" variants={textVariants} initial="hidden" animate="show">
           {eyebrow && (
             <motion.span
@@ -93,19 +100,23 @@ export default function HeroSection({
           {(primaryLabel || secondaryLabel) && (
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               {primaryLabel && primaryHref && (
-                <ButtonLink href={primaryHref} variant="primary">
-                  {primaryLabel}
-                </ButtonLink>
+                <MagneticButton>
+                  <ButtonLink href={primaryHref} variant="primary">
+                    {primaryLabel}
+                  </ButtonLink>
+                </MagneticButton>
               )}
               {secondaryLabel && secondaryHref && (
-                <ButtonLink href={secondaryHref} variant="outline">
-                  {secondaryLabel}
-                </ButtonLink>
+                <MagneticButton>
+                  <ButtonLink href={secondaryHref} variant="outline">
+                    {secondaryLabel}
+                  </ButtonLink>
+                </MagneticButton>
               )}
             </motion.div>
           )}
         </motion.div>
-      </div>
+      </motion.div>
 
       <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
     </section>

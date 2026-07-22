@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { navLinks } from "@/lib/site-config";
+import SisterSiteSwitcher from "@/components/SisterSiteSwitcher";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -26,17 +26,7 @@ export default function Navbar() {
         Skip to content
       </a>
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center" aria-label="Fairhaven Property Group home">
-          <Image
-            src="/logos/logo-property-white.svg"
-            alt="Fairhaven Property Group"
-            width={220}
-            height={46}
-            priority
-            unoptimized
-            className="h-8 w-auto sm:h-9"
-          />
-        </Link>
+        <SisterSiteSwitcher current="property" />
 
         <ul className="hidden lg:flex items-center gap-7">
           {navLinks.map((l) => (

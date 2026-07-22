@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Navy background -->
+  <rect width="512" height="512" fill="#1A3A52"/>
+
+  <!-- Teal bracket mark — arms thick enough to render at 16x16 (>=2px at scale) -->
+  <!-- Stroke width 64 = ~2px at 16x16; arm length 160 = ~5px at 16x16 -->
+
+  <!-- Top-left bracket: opens toward bottom-right -->
+  <rect x="80"  y="80"  width="160" height="64" fill="#4A9B8E"/>
+  <rect x="80"  y="80"  width="64"  height="160" fill="#4A9B8E"/>
+
+  <!-- Bottom-right bracket: opens toward top-left -->
+  <rect x="272" y="368" width="160" height="64" fill="#4A9B8E"/>
+  <rect x="368" y="272" width="64"  height="160" fill="#4A9B8E"/>
+</svg>

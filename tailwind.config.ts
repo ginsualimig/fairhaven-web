@@ -12,7 +12,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         navy: "#0F172A",
-        gold: "#D4AF37",
+        gold: "#4A9B8E",
         teal: "#4A9B8E",
         stone: "#6B7280",
         offwhite: "#F9FAFB",

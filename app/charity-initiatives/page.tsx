@@ -157,6 +157,66 @@ export default function CharityInitiativesPage() {
         </Container>
       </section>
 
+      {/* Giving widgets */}
+      <section className="py-24 bg-offwhite border-t border-stone/10">
+        <Container>
+          <Reveal className="max-w-2xl mb-12">
+            <span className="text-teal text-xs font-semibold tracking-widest uppercase label-uppercase">
+              Live Giving
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mt-3">
+              See the impact in real time
+            </h2>
+            <p className="text-stone mt-4 leading-relaxed">
+              These live B1G1 and Businesses for Good tools show how business activity can connect to practical,
+              measurable giving across the world.
+            </p>
+          </Reveal>
+
+          <div className="grid lg:grid-cols-2 gap-8 items-stretch">
+            <Reveal className="h-full">
+              <div className="h-full overflow-hidden rounded-xl border border-teal/20 bg-white shadow-[0_18px_45px_rgba(15,23,42,0.08)]">
+                <div className="border-b border-teal/10 px-6 py-5">
+                  <span className="text-teal text-[10px] font-semibold uppercase tracking-[0.2em]">B1G1</span>
+                  <h3 className="mt-2 text-xl font-bold font-serif text-navy">Choose a giving activity</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-stone">
+                    Explore the causes and projects supported through the B1G1 community.
+                  </p>
+                </div>
+                <iframe
+                  title="Fairhaven Property Group B1G1 giving activities"
+                  height={396}
+                  width="100%"
+                  loading="lazy"
+                  src="https://account.b1g1.com/frontgivingwidget/mywidget/77e38479418bf9303ed8650422702576"
+                  style={{ border: "none", position: "relative" }}
+                />
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.1} className="h-full">
+              <div className="h-full overflow-hidden rounded-xl border border-teal/20 bg-white shadow-[0_18px_45px_rgba(15,23,42,0.08)]">
+                <div className="border-b border-teal/10 px-6 py-5">
+                  <span className="text-teal text-[10px] font-semibold uppercase tracking-[0.2em]">Businesses for Good</span>
+                  <h3 className="mt-2 text-xl font-bold font-serif text-navy">Follow our global connections</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-stone">
+                    View the places and projects connected to Fairhaven&apos;s giving activity.
+                  </p>
+                </div>
+                <iframe
+                  title="Fairhaven Property Group Businesses for Good impact map"
+                  height={396}
+                  width="100%"
+                  loading="lazy"
+                  src="https://businessesforgood.com/embed.php?id=16793&id2=Impact&height=300"
+                  style={{ border: "none", position: "relative" }}
+                />
+              </div>
+            </Reveal>
+          </div>
+        </Container>
+      </section>
+
       {/* Live impact map */}
       <section className="py-24 bg-white border-t border-stone/10">
         <Container>
@@ -174,7 +234,7 @@ export default function CharityInitiativesPage() {
           </Reveal>
           <Reveal delay={0.1} y={0}>
             <div className="rounded-xl border border-stone/15 shadow-xl shadow-navy/10 overflow-hidden bg-offwhite">
-              <div className="h-1.5 bg-gradient-to-r from-teal via-gold to-teal" />
+              <div className="h-1.5 bg-gradient-to-r from-teal via-teal/50 to-teal" />
               <iframe
                 title="Fairhaven Property Group's B1G1 giving impact map"
                 style={{ border: "none" }}

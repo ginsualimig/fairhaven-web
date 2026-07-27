@@ -1,7 +1,7 @@
 ---
 slug: "the-two-speed-economy"
 title: "The Two-Speed Economy: Which Lane Are Your Assets In?"
-metaDescription: "The Two-Speed Economy: Which Lane Are Your Assets In?"
+metaDescription: "The IMF just split the world into two lanes. Eurozone at 0.4%. Malaysia at 5.4%. The RBNZ delivered its first rate hike since 2023 on the same day the ceasefire collapsed. Which lane are your assets in?"
 author: "Fairhaven Property Group"
 date: "2026-07-20"
 image: "https://images.unsplash.com/photo-1755288621351-563dfe9a4d73?auto=format&fit=crop&w=1600&q=85"

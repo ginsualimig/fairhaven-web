@@ -4,7 +4,7 @@ title: "The Two-Speed Economy: Which Lane Are Your Assets In?"
 metaDescription: "The Two-Speed Economy: Which Lane Are Your Assets In?"
 author: "Fairhaven Property Group"
 date: "2026-07-20"
-image: "https://unsplash.com/photos/airport-waiting-area-with-planes-visible-through-window-QavSYd2eEHs"
+image: "https://images.unsplash.com/photo-1755288621351-563dfe9a4d73?auto=format&fit=crop&w=1600&q=85"
 ---
 This week the International Monetary Fund published its July 2026 World Economic Outlook Update and chose a title that said everything: Global Economy in Crosscurrents of War and Technology. Not a single trend, not a synchronised cycle. Two forces pulling in opposite directions, and countries, markets, and assets falling on one side or the other.
 

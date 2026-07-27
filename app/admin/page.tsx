@@ -1,11 +1,19 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { marked } from "marked";
 import { slugify } from "@/lib/slugify";
 
 const FALLBACK_IMAGE = "/images/hero-home.webp";
+
+interface AdminPost {
+  slug: string;
+  title: string;
+  author: string;
+  date: string;
+  image: string;
+}
 
 function todayISO() {
   return new Date().toISOString().slice(0, 10);
@@ -13,6 +21,11 @@ function todayISO() {
 
 export default function AdminPublishPage() {
   const router = useRouter();
+  const [posts, setPosts] = useState<AdminPost[]>([]);
+  const [editingSlug, setEditingSlug] = useState<string | null>(null);
+  const [sha, setSha] = useState("");
+  const [loadingPosts, setLoadingPosts] = useState(true);
+  const [loadingArticle, setLoadingArticle] = useState(false);
   const [title, setTitle] = useState("");
   const [slugTouched, setSlugTouched] = useState(false);
   const [slug, setSlug] = useState("");
@@ -32,17 +45,75 @@ export default function AdminPublishPage() {
   const [uploading, setUploading] = useState(false);
   const [uploadError, setUploadError] = useState("");
 
+  async function refreshPosts() {
+    setLoadingPosts(true);
+    try {
+      const res = await fetch("/api/admin/posts", { cache: "no-store" });
+      const data = await res.json();
+      if (res.ok) setPosts(data.posts || []);
+    } finally {
+      setLoadingPosts(false);
+    }
+  }
+
+  useEffect(() => {
+    void refreshPosts();
+  }, []);
+
   const effectiveSlug = slugTouched ? slug : slugify(title);
   const previewHtml = useMemo(() => (body ? marked.parse(body, { async: false }) : ""), [body]);
 
-  async function handlePublish(e: React.FormEvent) {
+  async function handleEdit(slug: string) {
+    setError("");
+    setResult(null);
+    setLoadingArticle(true);
+    try {
+      const res = await fetch(`/api/admin/posts/${slug}`, { cache: "no-store" });
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || "Could not load this article.");
+        return;
+      }
+      setEditingSlug(slug);
+      setSha(data.sha);
+      setTitle(data.title || "");
+      setSlug(slug);
+      setSlugTouched(true);
+      setAuthor(data.author || "Fairhaven Property Group");
+      setDate(data.date || todayISO());
+      setMetaDescription(data.metaDescription || "");
+      setImage(data.image || "");
+      setBody(data.body || "");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } catch {
+      setError("Could not load this article. Check your connection and try again.");
+    } finally {
+      setLoadingArticle(false);
+    }
+  }
+
+  function resetForm() {
+    setEditingSlug(null);
+    setSha("");
+    setTitle("");
+    setSlug("");
+    setSlugTouched(false);
+    setAuthor("Fairhaven Property Group");
+    setDate(todayISO());
+    setMetaDescription("");
+    setImage("");
+    setBody("");
+  }
+
+  async function handleSave(e: React.FormEvent) {
     e.preventDefault();
     setError("");
     setSubmitting(true);
     setResult(null);
     try {
-      const res = await fetch("/api/admin/publish", {
-        method: "POST",
+      const endpoint = editingSlug ? `/api/admin/posts/${editingSlug}` : "/api/admin/publish";
+      const res = await fetch(endpoint, {
+        method: editingSlug ? "PUT" : "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           title,
@@ -52,6 +123,7 @@ export default function AdminPublishPage() {
           metaDescription,
           image,
           body,
+          ...(editingSlug ? { sha } : {}),
         }),
       });
       const data = await res.json();
@@ -61,12 +133,8 @@ export default function AdminPublishPage() {
         return;
       }
       setResult({ slug: data.slug, url: data.url });
-      setTitle("");
-      setSlug("");
-      setSlugTouched(false);
-      setMetaDescription("");
-      setImage("");
-      setBody("");
+      resetForm();
+      await refreshPosts();
     } catch {
       setError("Could not reach the server. Check your connection and try again.");
     } finally {
@@ -149,14 +217,18 @@ export default function AdminPublishPage() {
       </header>
 
       <main className="mx-auto max-w-6xl px-6 py-10">
-        <h1 className="text-2xl font-bold font-serif text-navy mb-1">New blog post</h1>
+        <h1 className="text-2xl font-bold font-serif text-navy mb-1">
+          {editingSlug ? "Edit blog post" : "New blog post"}
+        </h1>
         <p className="text-stone text-sm mb-8">
-          Fill this in and hit Publish. It goes live at fairhaven-web.vercel.app within 1&ndash;2 minutes.
+          {editingSlug
+            ? "Update the article and save it. The site rebuilds automatically within 1–2 minutes."
+            : "Fill this in and hit Publish. It goes live within 1–2 minutes after the site rebuilds."}
         </p>
 
         {result && (
           <div className="mb-8 rounded-lg border border-teal/30 bg-teal/5 p-5">
-            <p className="text-navy font-semibold mb-1">Published! 🎉</p>
+            <p className="text-navy font-semibold mb-1">{editingSlug ? "Saved!" : "Published! 🎉"}</p>
             <p className="text-sm text-stone">
               Your post will appear at{" "}
               <span className="font-mono text-navy">{result.url}</span> within a minute or two, once the site
@@ -171,7 +243,35 @@ export default function AdminPublishPage() {
           </div>
         )}
 
-        <form onSubmit={handlePublish} className="grid lg:grid-cols-2 gap-8">
+        <section className="mb-8 rounded-lg border border-stone/20 bg-white p-5">
+          <div className="flex items-center justify-between gap-4 mb-3">
+            <div>
+              <h2 className="text-navy font-semibold">Existing articles</h2>
+              <p className="text-stone text-sm">Select an article to correct its text or cover image.</p>
+            </div>
+            {loadingPosts && <span className="text-xs text-stone">Loading…</span>}
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {posts.map((post) => (
+              <button
+                key={post.slug}
+                type="button"
+                disabled={loadingArticle}
+                onClick={() => void handleEdit(post.slug)}
+                className={`rounded-md border px-3 py-2 text-left text-sm transition-colors ${
+                  editingSlug === post.slug
+                    ? "border-teal bg-teal/10 text-teal"
+                    : "border-stone/25 text-navy hover:border-teal/60"
+                }`}
+              >
+                <span className="block font-medium">{post.title}</span>
+                <span className="block text-xs text-stone mt-0.5">{post.date}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+
+        <form onSubmit={handleSave} className="grid lg:grid-cols-2 gap-8">
           <div className="space-y-5">
             <div>
               <label className="block text-sm font-medium text-navy mb-1.5" htmlFor="title">
@@ -195,6 +295,7 @@ export default function AdminPublishPage() {
               <input
                 id="slug"
                 value={effectiveSlug}
+                disabled={Boolean(editingSlug)}
                 onChange={(e) => {
                   setSlugTouched(true);
                   setSlug(slugify(e.target.value));
@@ -311,8 +412,21 @@ export default function AdminPublishPage() {
               disabled={submitting}
               className="w-full sm:w-auto rounded-sm bg-teal px-8 py-3.5 text-sm font-semibold text-white hover:bg-teal/90 transition-colors disabled:opacity-50"
             >
-              {submitting ? "Publishing…" : "Publish"}
+              {submitting ? (editingSlug ? "Saving…" : "Publishing…") : editingSlug ? "Save changes" : "Publish"}
             </button>
+            {editingSlug && (
+              <button
+                type="button"
+                onClick={() => {
+                  resetForm();
+                  setResult(null);
+                  setError("");
+                }}
+                className="ml-3 rounded-sm border border-stone/30 px-8 py-3.5 text-sm font-semibold text-navy hover:border-teal transition-colors"
+              >
+                Cancel edit
+              </button>
+            )}
           </div>
 
           <div className={`${showPreview ? "block" : "hidden"} lg:block`}>

@@ -20,13 +20,6 @@ export default function Footer() {
               Discretionary fund management, cross-border deal sourcing, and property management &amp;
               optimisation — headquartered in Dunedin, New Zealand.
             </p>
-            <address className="not-italic text-sm leading-relaxed mb-6">
-              {siteConfig.address.line1}
-              <br />
-              {siteConfig.address.line2}
-              <br />
-              {siteConfig.address.city} {siteConfig.address.postcode}, {siteConfig.address.country}
-            </address>
             <div className="flex items-center gap-4">
               <a
                 href={siteConfig.social.facebook}

@@ -17,15 +17,6 @@ export const siteConfig = {
   ],
   email: "info@fairhavenproperty.co.nz",
   phone: "",
-  address: {
-    line1: "First Floor, Harvest Court",
-    line2: "218 George Street",
-    suburb: "",
-    city: "Dunedin",
-    postcode: "9016",
-    country: "New Zealand",
-    countryCode: "NZ",
-  },
   social: {
     facebook: "https://www.facebook.com/fairhavenproperty",
     instagram: "https://www.instagram.com/fairhaven.nz",

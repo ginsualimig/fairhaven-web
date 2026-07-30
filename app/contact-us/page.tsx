@@ -29,16 +29,7 @@ export default function ContactUsPage() {
             </p>
 
             <div className="rounded-lg border border-stone/20 bg-white p-6 mb-6">
-              <h2 className="font-serif font-semibold text-navy mb-3">Our Office</h2>
-              <address className="text-stone text-sm leading-relaxed not-italic">
-                {siteConfig.address.line1}
-                <br />
-                {siteConfig.address.line2}
-                <br />
-                {siteConfig.address.city} {siteConfig.address.postcode}
-                <br />
-                {siteConfig.address.country}
-              </address>
+              <h2 className="font-serif font-semibold text-navy mb-3">Contact Details</h2>
               <p className="text-stone text-sm mt-4">
                 Email:{" "}
                 <a href={`mailto:${siteConfig.email}`} className="text-teal underline hover:text-teal/80">

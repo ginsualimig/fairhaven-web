@@ -71,13 +71,6 @@ export function organizationJsonLd() {
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo.png`,
     sameAs: [siteConfig.social.facebook, siteConfig.social.instagram],
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: `${siteConfig.address.line1}, ${siteConfig.address.line2}`,
-      addressLocality: siteConfig.address.city,
-      postalCode: siteConfig.address.postcode,
-      addressCountry: siteConfig.address.countryCode,
-    },
   };
 }
 
@@ -88,13 +81,6 @@ export function localBusinessJsonLd() {
     name: siteConfig.legalName,
     image: `${siteConfig.url}/logo.png`,
     url: siteConfig.url,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: `${siteConfig.address.line1}, ${siteConfig.address.line2}`,
-      addressLocality: siteConfig.address.city,
-      postalCode: siteConfig.address.postcode,
-      addressCountry: siteConfig.address.countryCode,
-    },
     areaServed: ["New Zealand", "Australia", "Singapore", "Malaysia", "Southeast Asia"],
     sameAs: [siteConfig.social.facebook, siteConfig.social.instagram],
   };

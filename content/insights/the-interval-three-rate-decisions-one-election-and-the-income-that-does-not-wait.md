@@ -209,8 +209,6 @@ These are not Fairhaven listings. They are four assets on the open market this m
 
 *On the market via ERA Realty Network (Eva Lau), exclusive. Included as a market note: the expression of interest closes the day after this edition is published.*
 
-![Smith Street, Chinatown, Singapore: the conservation shophouse street opposite Chinatown Complex where 42, 44 and 46 Smith Street stand. Street photo via Property News Asia; agent photo of the three buildings to follow from ERA.](/images/blog/sg-42-46-smith-st-mv8uirmd-esgnda.jpg)
-
 <table>
 <tbody>
 <tr><td>Property Type</td><td>Three adjoining freehold conservation shophouses on a corner, with multiple frontages; major renovation completed 2023</td></tr>
